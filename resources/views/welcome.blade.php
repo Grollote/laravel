@@ -292,7 +292,7 @@
                         <img src="{{ asset('image/drum.png') }} " width="250px;" height="150px;">
 
                         <div class="card-body">
-                            <h5 class="name">Patrick</h5>
+                            <h5 class="name">Jean-Mi</h5>
                             <hr>
                             <p class="texte">Batterie</p>
                         </div>
@@ -314,7 +314,7 @@
                         <img src="{{ asset('image/drum.png') }} " width="250px;" height="150px;">
 
                         <div class="card-body">
-                            <h5 class="name">Patrick</h5>
+                            <h5 class="name">Paulette</h5>
                             <hr>
                             <p class="texte">Batterie</p>
                         </div>
