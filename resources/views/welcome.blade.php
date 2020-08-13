@@ -166,9 +166,9 @@
                                 <img src="{{ asset('image/guitar.png') }} " width="250px;" height="150px;">
 
                                 <div class="card-body">
-                                    <h5 class="name">Pierre</h5>
+                                    <h5 class="name">Paul</h5>
                                     <hr>
-                                    <p class="texte">Hey bitch</p>
+                                    <p class="texte">tralala</p>
                                 </div>
                             </div>
 
