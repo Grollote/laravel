@@ -12,7 +12,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-
     <style>
         .menu {
             text-align: center;
@@ -163,7 +162,7 @@
                     <div class="card-wrapper">
                         <div class="content">
                             <div class="face-front z-depth-2">
-                                <img src="{{ asset('image/guitar.png') }} " width="250px;" height="150px;">
+                                <img src="{{ asset('image/piano.png') }} " >
 
                                 <div class="card-body">
                                     <h5 class="name">Paul</h5>
@@ -314,7 +313,7 @@
                         <img src="{{ asset('image/drum.png') }} " width="250px;" height="150px;">
 
                         <div class="card-body">
-                            <h5 class="name">Paulette</h5>
+                            <h5 class="name">Patrick</h5>
                             <hr>
                             <p class="texte">Batterie</p>
                         </div>
