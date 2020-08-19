@@ -44,11 +44,12 @@
     background: #636b6f;
     color: black;
   }
-  .m-b-md > a {
+  .lien_connexion{
     float: right;
   }
   .text-justify{
     margin: 50px 0 0 5%;
+    width: 80%;
   }
   .actualite{
     width: 70%;
@@ -58,7 +59,7 @@
   }
   .main-card{
     display: flex;
-    margin: 30px;
+    margin: 70px;
   }
   .flip-card {
     width: 300px;
@@ -227,15 +228,18 @@
 </style>
 </head>
 <body>
-  <div class="content">
+  <div class="content" id="content">
+
     <div class="m-b-md">
-      <img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
-      <a href="">Connexion</a>
+    <a href="#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
+
+      <a href="" class="lien_connexion">Connexion</a>
+
     </div>
     <div class="links">
-      <a href="">Ecole</a>
-      <a href="">Formule</a>
-      <a href="">Contact</a>
+      <a href="#text-justify">Ecole</a>
+      <a href="#Information">Formule</a>
+      <a href="#Information">Contact</a>
     </div>
   </div>
   <div class="fil-actualite">
@@ -247,7 +251,7 @@
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-  <h1 class="text-justify">Présentation de l entreprise</h1>
+  <h1 class="text-justify" id="text-justify">Présentation de l entreprise</h1>
   <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium optio corporis sed aperiam consectetur odit dolore adipisci repellat, ipsam expedita perferendis? Inventore perspiciatis quod debitis et dolor, dignissimos libero maiores? Quos eos iusto perspiciatis, architecto sed corporis. Vero, est! Illum nemo asperiores delectus numquam! Sint magni est fugiat, commodi animi quisquam suscipit mollitia officiis nostrum voluptate pariatur molestiae iusto voluptas, distinctio delectus ullam quos perferendis ab debitis ea. Ipsum culpa obcaecati voluptatum asperiores inventore perspiciatis officiis nemo placeat exercitationem itaque quam, temporibus dolor expedita doloribus, aut distinctio possimus. At voluptatum ducimus dolor aliquid maiores in reprehenderit neque aliquam, qui beatae, optio natus aut dolores similique. Ad fuga, deserunt eum nam sint incidunt placeat! Odio, libero facilis atque repellendus dolores ipsa!<a href="enseignant" > Découvrez nos enseignants</a>
   </p>
   @php
@@ -260,11 +264,20 @@
             "Chorale adultes",
             "Veille musicale"
     ];
-    
+    $image=["{{ asset('image/drum.png') }}\"",
+    "{{ asset('image/drum.png') }}\"",
+    "{{ asset('image/violin.png') }}\"",
+    "{{ asset('image/violin.png') }}\"",
+    "{{ asset('image/violin.png') }}\"",
+    "{{ asset('image/violin.png') }}\"",
+    "{{ asset('image/violin.png') }}\"",
+    "{{ asset('image/violin.png') }}\"",
+    ];
     $stock = "<div class=\"main-card\">";
     
     for ($i = 0; $i < 8; $i++) {
-        $stock .= "<div class=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><p>";
+        $stock .= "<div class=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"";
+        $stock .= $image[$i]."><p>";
         $stock .= $alt[$i]."</p></div> <div class=\"flip-card-back\"><p>";
         $stock .= $alt[$i]."</p></div></div></div>";
         if ($i == 2 || $i== 5) {
@@ -281,7 +294,7 @@
 
   <div class="main-renseignement">
   <form class="main">
-    <p class="Information">Renseignement/Préinscription</p>
+    <p class="Information" id="Information">Renseignement/Préinscription</p>
     <div class="form-row">
 
       <div class="form-group col-md-6">
@@ -297,7 +310,7 @@
       </div>
     </div>
 
-    <div class="form-group">
+    <div class="form-group" id="form-group">
     <label>Addresse mail</label>
 
       <input class="form-control" placeholder="exemple@gmailcom">
@@ -318,7 +331,6 @@
             "Chorale ",
             "Veille musicale"
     ];
-    $image=[ "{{ asset('image/Sanstitre.png')}}"];
     $stock = "<div class=\"main-form\">";
     
     for ($i = 0; $i < 8; $i++) {
