@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
   <title>Laravel</title>
     <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
+
   <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
   <!-- Styles -->
 <style>
   html, body {
     background-color: #fff;
     color: #636b6f;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 200;
+    font-family: 'Asap', sans-serif;
     height: 100vh;
     margin: 0;
   }
@@ -24,6 +24,7 @@
     text-align: center;
   }
   .title {
+    font-family: 'Faustina', serif;
     font-size: 84px;
   }
   .links > a {
@@ -229,7 +230,7 @@
 <body>
   <div class="content">
     <div class="m-b-md">
-      <img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
+      <img src="image/point-dorgue.gif" alt="point d'orgue" height="150" width="auto">
       <a href="">Connexion</a>
     </div>
     <div class="links">
@@ -247,7 +248,7 @@
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-  <h1 class="text-justify">Présentation de l entreprise</h1>
+  <h1 class="text-justify">Présentation de l'entreprise </h1>
   <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium optio corporis sed aperiam consectetur odit dolore adipisci repellat, ipsam expedita perferendis? Inventore perspiciatis quod debitis et dolor, dignissimos libero maiores? Quos eos iusto perspiciatis, architecto sed corporis. Vero, est! Illum nemo asperiores delectus numquam! Sint magni est fugiat, commodi animi quisquam suscipit mollitia officiis nostrum voluptate pariatur molestiae iusto voluptas, distinctio delectus ullam quos perferendis ab debitis ea. Ipsum culpa obcaecati voluptatum asperiores inventore perspiciatis officiis nemo placeat exercitationem itaque quam, temporibus dolor expedita doloribus, aut distinctio possimus. At voluptatum ducimus dolor aliquid maiores in reprehenderit neque aliquam, qui beatae, optio natus aut dolores similique. Ad fuga, deserunt eum nam sint incidunt placeat! Odio, libero facilis atque repellendus dolores ipsa!<a href="enseignant" > Découvrez nos enseignants</a>
   </p>
   @php
@@ -258,7 +259,7 @@
             "Chorale enfant (9 à 11 ans)",
             "Chorale enfant(7 à 8ans)",
             "Chorale adultes",
-            "Veille musicale"
+            "Eveil musical"
     ];
     
     $stock = "<div class=\"main-card\">";
@@ -281,7 +282,7 @@
 
   <div class="main-renseignement">
   <form class="main">
-    <p class="Information">Renseignement/Préinscription</p>
+    <p class="Information">Renseignement / Pré-inscription</p>
     <div class="form-row">
 
       <div class="form-group col-md-6">
@@ -312,16 +313,20 @@
     $name=[ "Piano", 
             "Chant",
             "Violon",
-            "Guitare",
+            "Eveil musical",
+            "Guitare acoustique",
+            "Guitare électrique",
             "Batterie",
             "Basse",
+            "Synthétiseur",
+            "Saxophone",
             "Chorale ",
-            "Veille musicale"
+           
     ];
     $image=[ "{{ asset('image/Sanstitre.png')}}"];
     $stock = "<div class=\"main-form\">";
     
-    for ($i = 0; $i < 8; $i++) {
+    for ($i = 0; $i < 11; $i++) {
         $stock .= "<div class=\"form-group\"><div class=\"form-check\"><input class=\"form-check-input\" type=\"checkbox\" id=\"gridCheck\"><label class=\"form-check-label\" for=\"gridCheck\">";
         $stock .= $name[$i]."</label></div></div>";
         if ($i == 2 || $i== 5) {
