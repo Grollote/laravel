@@ -12,8 +12,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
         <!-- Styles -->
-<<<<<<< HEAD
         <style>
+            html, body {
+                background-color: #fff;
+                color: #636b6f;
+                font-family: 'Asap', sans-serif;
+                height: 100vh;
+                margin: 0;
+              }
             .menu {
                 text-align: center;
                 font-family: 'Asap', sans-serif;
@@ -117,8 +123,7 @@
           <body>
             <h4>Présentation des professeurs</h4>
     
-    <!--Guitare-Basse-->
-    
+        
             <div class="container mt-5">
                 <div class="row">
     
@@ -126,146 +131,17 @@
                         <div class="card-wrapper">
                             <div class="content">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/guitar.png') }} " width="250px;" height="150px;">
+                                    <img src="{{ asset('image/a.blandin.png') }} " >
     
                                     <div class="card-body">
-                                        <h5 class="name">Pierre</h5>
-                                        <hr>
-                                        <p class="texte">Guitare électrique / Guitare accoustique / Basse </p>
+                                        <h5 class="name">Agnès Blandin</h5>
+                                        <p class="texte">Violon </p>
                                     </div>
-=======
-    <style>
-        .menu {
-            text-align: center;
-            font-family: 'Asap', sans-serif;
-          }
-        .links > a {
-            color: rgba(38, 0, 255, 0.692);
-            padding: 0 100px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-          }
-          a {
-            color: blue;
-          }
-          .m-b-md {
-            height: 150px;
-            margin-bottom: 30px;
-            background: #636b6f;
-            color: black;
-          }
-          .lien_connexion{
-            float: right;
-          }
-
-          h4{
-            margin-top: 3%;
-            padding-left:3%;
-            font-family: 'Faustina', serif;
-        }
-
-.card-wrapper{
-    height:400px;
-    width:300px;
-    perspective: 1000px;
-}
-
-.content{
-    position: relative;
-    width:100%;
-    height:100%;
-    text-align:center;
-    transition:transform 0.8s;
-    transform-style: preserve-3d;
-    box-shadow: 1px 1px 12px #555;
-}
-.card-wrapper:hover .content {
-    transform: rotateY(180deg);
-    transition: 1s;
-}
-
-.face-front, .face-back{
-   position: absolute;
-   width: 100%;
-   height: 100%; 
-   background-color:#fff;
-   color: black;
-}
-
-.face-back{
-    transform: rotateY(180deg);
-}
-
-.name{
-    font-family: 'Faustina', serif;
-}
-
-.texte{
-    font-family: 'Asap', sans-serif;
-}
-
-footer{
-    margin-top: 5%;
-    height: 100px;
-    background: #636b6f;
-  }
-  .icone{
-    padding-left: 48%;
-    padding-top: 1%;
-  }
-  .mentions{
-    margin: 10px;
-    text-align: center;
-  }
-
-    </style>
-    </head>
-<body>
-<!--menu-->
-
-
-    <div class="menu">
-        <div class="m-b-md">
-            <a href="/#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
-
-          <a href="" class="lien_connexion">Connexion</a>
-        </div>
-        <div class="links">
-          <a href="/#text-justify">Ecole</a>
-          <a href="/#Information">Formule</a>
-          <a href="/#Information">Contact</a>
-        </div>
-      </div>
-
-      
-
-      <body>
-        <h4>Présentation des professeurs</h4>
-
-<!--Guitare-Basse-->
-
-        <div class="container mt-5">
-            <div class="row">
-
-                <div class="col-md-3 m-4 pl-auto">
-                    <div class="card-wrapper">
-                        <div class="content">
-                            <div class="face-front z-depth-2">
-                                <img src="{{ asset('image/guitar.png') }} " width="250px;" height="150px;">
-
-                                <div class="card-body">
-                                    <h5 class="name">Pierre</h5>
-                                    <hr>
-                                    <p class="texte">Guitare électrique / Guitare accoustique / Basse </p>
->>>>>>> 3b7e389ec2dec6ba1130553d5afe76fbfcfad03b
                                 </div>
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>bla la llsfj  sjfb sfeb</p>
+                                        <p>Plus d'informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -276,18 +152,17 @@ footer{
                         <div class="card-wrapper">
                             <div class="content">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/guitar.png') }} " width="250px;" height="150px;">
+                                    <img src="{{ asset('image/e.bagourd.png') }} ">
     
                                     <div class="card-body">
-                                        <h5 class="name">Bruno</h5>
-                                        <hr>
-                                        <p class="texte">Guitare accoustique</p>
+                                        <h5 class="name">Eric Bagourd</h5>
+                                        <p class="texte">Piano</p>
                                     </div>
                                 </div>
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>bla la llsfj  sjfb sfeb</p>
+                                        <p>Plus d'informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -298,18 +173,17 @@ footer{
                         <div class="card-wrapper">
                             <div class="content">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/piano.png') }} " >
+                                    <img src="{{ asset('image/a.leveque.png') }} " >
     
                                     <div class="card-body">
-                                        <h5 class="name">Paul</h5>
-                                        <hr>
-                                        <p class="texte">tralala</p>
+                                        <h5 class="name">Arnaud Lévêque</h5>
+                                        <p class="texte">Piano</p>
                                     </div>
                                 </div>
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>bla la llsfj  sjfb sfeb</p>
+                                        <p>Plus d'informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -320,7 +194,6 @@ footer{
                 </div>
             </div>
     
-    <!--Batterie-->
             <div class="container mt-5">
                 <div class="row">
     
@@ -328,18 +201,17 @@ footer{
                         <div class="card-wrapper">
                             <div class="content">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/drum.png') }} " width="250px;" height="150px;">
+                                    <img src="{{ asset('image/a.duret.png') }} " >
     
                                     <div class="card-body">
-                                        <h5 class="name">Michel</h5>
-                                        <hr>
+                                        <h5 class="name">Alain Duret</h5>
                                         <p class="texte">Batterie </p>
                                     </div>
                                 </div>
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>bla la llsfj  sjfb sfeb</p>
+                                        <p>Plus d'informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -350,18 +222,17 @@ footer{
                         <div class="card-wrapper">
                             <div class="content">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/drum.png') }} " width="250px;" height="150px;">
+                                    <img src="{{ asset('image/drums.png') }} " >
     
                                     <div class="card-body">
-                                        <h5 class="name">Bobby</h5>
-                                        <hr>
+                                        <h5 class="name">Jérôme Lelong</h5>
                                         <p class="texte">Batterie</p>
                                     </div>
                                 </div>
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>bla la llsfj  sjfb sfeb</p>
+                                        <p>Plus d'informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -372,18 +243,17 @@ footer{
                         <div class="card-wrapper">
                             <div class="content">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/drum.png') }} " width="250px;" height="150px;">
+                                    <img src="{{ asset('image/saxo.png') }} " >
     
                                     <div class="card-body">
-                                        <h5 class="name">Bobby</h5>
-                                        <hr>
-                                        <p class="texte">Batterie</p>
+                                        <h5 class="name">Jean-Michel Cresson</h5>
+                                        <p class="texte">Saxophone / Trompette</p>
                                     </div>
                                 </div>
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>bla la llsfj  sjfb sfeb</p>
+                                        <p>Plus d'informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -394,7 +264,7 @@ footer{
                 </div>
             </div>
     
-    <!--Chant-->
+  
     <div class="container mt-5">
         <div class="row">
     
@@ -402,18 +272,17 @@ footer{
                 <div class="card-wrapper">
                     <div class="content">
                         <div class="face-front z-depth-2">
-                            <img src="{{ asset('image/chant.png') }} ">
+                            <img src="{{ asset('image/b.druard.png') }} ">
     
                             <div class="card-body">
-                                <h5 class="name">Patrick</h5>
-                                <hr>
-                                <p class="texte">Chant / Chorale / Eveil musical </p>
+                                <h5 class="name">Bruno Druard</h5>
+                                <p class="texte">Guitare</p>
                             </div>
                         </div>
     
                         <div class="face-back z-depth-2">
                             <div class="card-body">
-                                <p>bla la llsfj  sjfb sfeb</p>
+                                <p>Plus d'informations à venir</p>
                             </div>
                         </div>
                     </div>
@@ -424,18 +293,17 @@ footer{
                 <div class="card-wrapper">
                     <div class="content">
                         <div class="face-front z-depth-2">
-                            <img src="{{ asset('image/drum.png') }} " width="250px;" height="150px;">
+                            <img src="{{ asset('image/p.lefrancois.png') }} " >
     
                             <div class="card-body">
-                                <h5 class="name">Jean-Mi</h5>
-                                <hr>
-                                <p class="texte">Batterie</p>
+                                <h5 class="name">Pierre Lefrançois</h5>
+                                <p class="texte">Guitare</p>
                             </div>
                         </div>
     
                         <div class="face-back z-depth-2">
                             <div class="card-body">
-                                <p>bla la llsfj  sjfb sfeb</p>
+                                <p>Plus d'informations à venir</p>
                             </div>
                         </div>
                     </div>
@@ -446,18 +314,38 @@ footer{
                 <div class="card-wrapper">
                     <div class="content">
                         <div class="face-front z-depth-2">
-                            <img src="{{ asset('image/drum.png') }} " width="250px;" height="150px;">
+                            <img src="{{ asset('image/bass.png') }} ">
     
                             <div class="card-body">
-                                <h5 class="name">Patrick</h5>
-                                <hr>
-                                <p class="texte">Batterie</p>
+                                <h5 class="name">André Tricoire</h5>
+                                <p class="texte">Basse</p>
                             </div>
                         </div>
     
                         <div class="face-back z-depth-2">
                             <div class="card-body">
-                                <p>bla la llsfj  sjfb sfeb</p>
+                                <p>Plus d'informations à venir</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 m-4 pl-auto">
+                <div class="card-wrapper">
+                    <div class="content">
+                        <div class="face-front z-depth-2">
+                            <img src="{{ asset('image/p.nivelle.png') }} " >
+    
+                            <div class="card-body">
+                                <h5 class="name">Patrick Nivelle</h5>
+                                <p class="texte">Chant / Chorale / Eveil musical</p>
+                            </div>
+                        </div>
+    
+                        <div class="face-back z-depth-2">
+                            <div class="card-body">
+                                <p>Plus d'informations à venir</p>
                             </div>
                         </div>
                     </div>

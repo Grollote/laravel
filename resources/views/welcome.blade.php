@@ -20,6 +20,12 @@
   .full-height {
     height: 100vh;
   }
+  h3{
+    margin-left: 3%;
+    font-family: 'Faustina', serif;
+    font-weight: bold;
+    color: #4c98be;
+  }
   .content {
     text-align: center;
   }
@@ -28,7 +34,7 @@
     font-size: 84px;
   }
   .links > a {
-    color: blue;
+    color: #09b6d4;
     padding: 0 100px;
     font-size: 13px;
     font-weight: 600;
@@ -37,7 +43,7 @@
     text-transform: uppercase;
   }
   a {
-    color: blue;
+    color: #09b6d4;
   }
   .m-b-md {
     height: 150px;
@@ -137,7 +143,7 @@
   footer{
     margin-top: 5%;
     height: 100px;
-    background: #636b6f;
+    background: #9fd0e9;
   }
   .form-check-label{
     margin: 0 10px; 
@@ -232,15 +238,8 @@
   <div class="content" id="content">
 
     <div class="m-b-md">
-<<<<<<< HEAD
-      <img src="image/point-dorgue.gif" alt="point d'orgue" height="150" width="auto">
+      <img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
       <a href="">Connexion</a>
-=======
-    <a href="#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
-
-      <a href="" class="lien_connexion">Connexion</a>
-
->>>>>>> 3b7e389ec2dec6ba1130553d5afe76fbfcfad03b
     </div>
     <div class="links">
       <a href="#text-justify">Ecole</a>
@@ -248,20 +247,23 @@
       <a href="#Information">Contact</a>
     </div>
   </div>
+  
   <div class="fil-actualite">
+    
     <div class="actualite">
-      <p class="text-justify actualite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet atque consectetur vel nostrum fugit quo repellendus corporis harum odio laborum eius neque error asperiores, expedita alias ad pariatur quod eaque ex et perspiciatis ipsum! Asperiores repellat facilis voluptatibus alias, reprehenderit laudantium! Tempore, enim rerum ut officia ad corrupti omnis quisquam incidunt quaerat beatae neque modi id dolor exercitationem deserunt dicta aperiam, aliquam expedita fuga eligendi, doloribus numquam perspiciatis? Ad veritatis asperiores aliquam saepe dolorum laudantium commodi optio quam eos porro, iste distinctio tenetur molestiae. Id dolor quas dolore at hic explicabo maxime fuga harum voluptas quam exercitationem porro accusantium voluptates quibusdam facilis eius magni quod, asperiores consectetur, illo adipisci nostrum qui! Cupiditate dolor atque maiores totam laudantium pariatur suscipit eveniet.
+      <h3>PORTES OUVERTES LE 05 SEPTEMBRE 2020, de 14h à 19h.</h3>
+      <p class="text-justify actualite">
+      </br>
+        <em>"Le Point d'Orgue, l'école qui swing !"</em></br>
+        L'école de musique du Point d'Orgue, a été créée en 1978. Elle propose l'enseignement de nombreux cours, en solo, binôme ou groupe.
+        De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique.
       </p>
     </div>
 
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-<<<<<<< HEAD
   <h1 class="text-justify">Présentation de l'entreprise </h1>
-=======
-  <h1 class="text-justify" id="text-justify">Présentation de l entreprise</h1>
->>>>>>> 3b7e389ec2dec6ba1130553d5afe76fbfcfad03b
   <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium optio corporis sed aperiam consectetur odit dolore adipisci repellat, ipsam expedita perferendis? Inventore perspiciatis quod debitis et dolor, dignissimos libero maiores? Quos eos iusto perspiciatis, architecto sed corporis. Vero, est! Illum nemo asperiores delectus numquam! Sint magni est fugiat, commodi animi quisquam suscipit mollitia officiis nostrum voluptate pariatur molestiae iusto voluptas, distinctio delectus ullam quos perferendis ab debitis ea. Ipsum culpa obcaecati voluptatum asperiores inventore perspiciatis officiis nemo placeat exercitationem itaque quam, temporibus dolor expedita doloribus, aut distinctio possimus. At voluptatum ducimus dolor aliquid maiores in reprehenderit neque aliquam, qui beatae, optio natus aut dolores similique. Ad fuga, deserunt eum nam sint incidunt placeat! Odio, libero facilis atque repellendus dolores ipsa!<a href="enseignant" > Découvrez nos enseignants</a>
   </p>
   @php
@@ -304,11 +306,7 @@
 
   <div class="main-renseignement">
   <form class="main">
-<<<<<<< HEAD
     <p class="Information">Renseignement / Pré-inscription</p>
-=======
-    <p class="Information" id="Information">Renseignement/Préinscription</p>
->>>>>>> 3b7e389ec2dec6ba1130553d5afe76fbfcfad03b
     <div class="form-row">
 
       <div class="form-group col-md-6">
