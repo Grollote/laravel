@@ -12,6 +12,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
         <!-- Styles -->
+<<<<<<< HEAD
         <style>
             .menu {
                 text-align: center;
@@ -132,6 +133,134 @@
                                         <hr>
                                         <p class="texte">Guitare électrique / Guitare accoustique / Basse </p>
                                     </div>
+=======
+    <style>
+        .menu {
+            text-align: center;
+            font-family: 'Asap', sans-serif;
+          }
+        .links > a {
+            color: rgba(38, 0, 255, 0.692);
+            padding: 0 100px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+          a {
+            color: blue;
+          }
+          .m-b-md {
+            height: 150px;
+            margin-bottom: 30px;
+            background: #636b6f;
+            color: black;
+          }
+          .lien_connexion{
+            float: right;
+          }
+
+          h4{
+            margin-top: 3%;
+            padding-left:3%;
+            font-family: 'Faustina', serif;
+        }
+
+.card-wrapper{
+    height:400px;
+    width:300px;
+    perspective: 1000px;
+}
+
+.content{
+    position: relative;
+    width:100%;
+    height:100%;
+    text-align:center;
+    transition:transform 0.8s;
+    transform-style: preserve-3d;
+    box-shadow: 1px 1px 12px #555;
+}
+.card-wrapper:hover .content {
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+
+.face-front, .face-back{
+   position: absolute;
+   width: 100%;
+   height: 100%; 
+   background-color:#fff;
+   color: black;
+}
+
+.face-back{
+    transform: rotateY(180deg);
+}
+
+.name{
+    font-family: 'Faustina', serif;
+}
+
+.texte{
+    font-family: 'Asap', sans-serif;
+}
+
+footer{
+    margin-top: 5%;
+    height: 100px;
+    background: #636b6f;
+  }
+  .icone{
+    padding-left: 48%;
+    padding-top: 1%;
+  }
+  .mentions{
+    margin: 10px;
+    text-align: center;
+  }
+
+    </style>
+    </head>
+<body>
+<!--menu-->
+
+
+    <div class="menu">
+        <div class="m-b-md">
+            <a href="/#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
+
+          <a href="" class="lien_connexion">Connexion</a>
+        </div>
+        <div class="links">
+          <a href="/#text-justify">Ecole</a>
+          <a href="/#Information">Formule</a>
+          <a href="/#Information">Contact</a>
+        </div>
+      </div>
+
+      
+
+      <body>
+        <h4>Présentation des professeurs</h4>
+
+<!--Guitare-Basse-->
+
+        <div class="container mt-5">
+            <div class="row">
+
+                <div class="col-md-3 m-4 pl-auto">
+                    <div class="card-wrapper">
+                        <div class="content">
+                            <div class="face-front z-depth-2">
+                                <img src="{{ asset('image/guitar.png') }} " width="250px;" height="150px;">
+
+                                <div class="card-body">
+                                    <h5 class="name">Pierre</h5>
+                                    <hr>
+                                    <p class="texte">Guitare électrique / Guitare accoustique / Basse </p>
+>>>>>>> 3b7e389ec2dec6ba1130553d5afe76fbfcfad03b
                                 </div>
     
                                 <div class="face-back z-depth-2">

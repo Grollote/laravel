@@ -35,7 +35,7 @@
             background: #636b6f;
             color: black;
           }
-          .m-b-md > a {
+          .lien_connexion{
             float: right;
           }
 <!-- reglement-->
@@ -55,13 +55,13 @@
         <body>
         <div class="content">
     <div class="m-b-md">
-      <img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
-      <a href="">Connexion</a>
+      <a href="/#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
+      <a href="" class="lien_connexion">Connexion</a>
     </div>
     <div class="links">
-      <a href="">Ecole</a>
-      <a href="">Formule</a>
-      <a href="">Contact</a>
+      <a href="/#text-justify">Ecole</a>
+      <a href="/#Information">Formule</a>
+      <a href="/#Information">Contact</a>
     </div>
   </div>
 
