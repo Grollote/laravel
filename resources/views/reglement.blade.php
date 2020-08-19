@@ -13,6 +13,13 @@
         <!-- Styles -->
 
     <style>
+      html, body {
+        background-color: #fff;
+        color: #636b6f;
+        font-family: 'Asap', sans-serif;
+        height: 100vh;
+        margin: 0;
+      }
         .content {
             text-align: center;
             font-family: 'Faustina', serif;
@@ -40,9 +47,10 @@
           }
 <!-- reglement-->
           h4{
-    margin-top: 3%;
-    padding-left:3%;
-    font-family: 'Faustina', serif;
+            margin-top: 3%;
+            padding-left:3%;
+            font-family: 'Faustina', serif;
+        }
 }
 .reglement{
     padding-left:3%;
