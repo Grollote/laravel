@@ -5,29 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
   <title>Laravel</title>
     <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
+
   <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
   <!-- Styles -->
 <style>
   html, body {
     background-color: #fff;
     color: #636b6f;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 200;
+    font-family: 'Asap', sans-serif;
     height: 100vh;
     margin: 0;
   }
   .full-height {
     height: 100vh;
   }
+  h3{
+    margin-left: 3%;
+    font-family: 'Faustina', serif;
+    font-weight: bold;
+    color: #4c98be;
+  }
   .content {
     text-align: center;
   }
   .title {
+    font-family: 'Faustina', serif;
     font-size: 84px;
   }
   .links > a {
-    color: blue;
+    color: #09b6d4;
     padding: 0 100px;
     font-size: 13px;
     font-weight: 600;
@@ -36,7 +43,7 @@
     text-transform: uppercase;
   }
   a {
-    color: blue;
+    color: #09b6d4;
   }
   .m-b-md {
     height: 150px;
@@ -136,7 +143,7 @@
   footer{
     margin-top: 5%;
     height: 100px;
-    background: #636b6f;
+    background: #9fd0e9;
   }
   .form-check-label{
     margin: 0 10px; 
@@ -231,9 +238,14 @@
   <div class="content" id="content">
 
     <div class="m-b-md">
+<<<<<<< HEAD
       <a href="#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
       <a href="" class="lien_connexion">Connexion</a>
 
+=======
+      <img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
+      <a href="">Connexion</a>
+>>>>>>> f126353c8047721eb89a0b7e675ee813466686b5
     </div>
     <div class="links">
       <a href="#text-justify">Ecole</a>
@@ -241,16 +253,23 @@
       <a href="#Information">Contact</a>
     </div>
   </div>
+  
   <div class="fil-actualite">
+    
     <div class="actualite">
-      <p class="text-justify actualite">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet atque consectetur vel nostrum fugit quo repellendus corporis harum odio laborum eius neque error asperiores, expedita alias ad pariatur quod eaque ex et perspiciatis ipsum! Asperiores repellat facilis voluptatibus alias, reprehenderit laudantium! Tempore, enim rerum ut officia ad corrupti omnis quisquam incidunt quaerat beatae neque modi id dolor exercitationem deserunt dicta aperiam, aliquam expedita fuga eligendi, doloribus numquam perspiciatis? Ad veritatis asperiores aliquam saepe dolorum laudantium commodi optio quam eos porro, iste distinctio tenetur molestiae. Id dolor quas dolore at hic explicabo maxime fuga harum voluptas quam exercitationem porro accusantium voluptates quibusdam facilis eius magni quod, asperiores consectetur, illo adipisci nostrum qui! Cupiditate dolor atque maiores totam laudantium pariatur suscipit eveniet.
+      <h3>PORTES OUVERTES LE 05 SEPTEMBRE 2020, de 14h à 19h.</h3>
+      <p class="text-justify actualite">
+      </br>
+        <em>"Le Point d'Orgue, l'école qui swing !"</em></br>
+        L'école de musique du Point d'Orgue, a été créée en 1978. Elle propose l'enseignement de nombreux cours, en solo, binôme ou groupe.
+        De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique.
       </p>
     </div>
 
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-  <h1 class="text-justify" id="text-justify">Présentation de l entreprise</h1>
+  <h1 class="text-justify">Présentation de l'entreprise </h1>
   <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium optio corporis sed aperiam consectetur odit dolore adipisci repellat, ipsam expedita perferendis? Inventore perspiciatis quod debitis et dolor, dignissimos libero maiores? Quos eos iusto perspiciatis, architecto sed corporis. Vero, est! Illum nemo asperiores delectus numquam! Sint magni est fugiat, commodi animi quisquam suscipit mollitia officiis nostrum voluptate pariatur molestiae iusto voluptas, distinctio delectus ullam quos perferendis ab debitis ea. Ipsum culpa obcaecati voluptatum asperiores inventore perspiciatis officiis nemo placeat exercitationem itaque quam, temporibus dolor expedita doloribus, aut distinctio possimus. At voluptatum ducimus dolor aliquid maiores in reprehenderit neque aliquam, qui beatae, optio natus aut dolores similique. Ad fuga, deserunt eum nam sint incidunt placeat! Odio, libero facilis atque repellendus dolores ipsa!<a href="enseignant" > Découvrez nos enseignants</a>
   </p>
   @php
@@ -261,7 +280,7 @@
             "Chorale enfant (9 à 11 ans)",
             "Chorale enfant(7 à 8ans)",
             "Chorale adultes",
-            "Veille musicale"
+            "Eveil musical"
     ];
     $image=["{{ asset('image/drum.png') }}\"",
     "{{ asset('image/drum.png') }}\"",
@@ -293,7 +312,7 @@
 
   <div class="main-renseignement">
   <form class="main">
-    <p class="Information" id="Information">Renseignement/Préinscription</p>
+    <p class="Information">Renseignement / Pré-inscription</p>
     <div class="form-row">
 
       <div class="form-group col-md-6">
@@ -324,15 +343,19 @@
     $name=[ "Piano", 
             "Chant",
             "Violon",
-            "Guitare",
+            "Eveil musical",
+            "Guitare acoustique",
+            "Guitare électrique",
             "Batterie",
             "Basse",
+            "Synthétiseur",
+            "Saxophone",
             "Chorale ",
-            "Veille musicale"
+           
     ];
     $stock = "<div class=\"main-form\">";
     
-    for ($i = 0; $i < 8; $i++) {
+    for ($i = 0; $i < 11; $i++) {
         $stock .= "<div class=\"form-group\"><div class=\"form-check\"><input class=\"form-check-input\" type=\"checkbox\" id=\"gridCheck\"><label class=\"form-check-label\" for=\"gridCheck\">";
         $stock .= $name[$i]."</label></div></div>";
         if ($i == 2 || $i== 5) {
@@ -348,10 +371,10 @@
     <button>Envoyer</button>
   </form>
   <div class="main-coordonnees">
-    <p class="Titre-coordonnées">Coordonnées de l école</p>
-    <p class="text-justify"><img src="{{ asset('image/maps.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
-    <p class="text-justify"><img src="{{ asset('image/email.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
-    <p class="text-justify"><img src="{{ asset('image/telephone.png') }}" height="30" width="auto">02.41.51.98.26</p>
+    <p class="Titre-coordonnées">Coordonnées de l'école</p>
+    <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
+    <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
+    <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>
     <div class="map-responsive">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.867472414942!2d-0.08187138418808754!3d47.25829471996658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4807f72ca0fa9e1d%3A0x22a7b200426828a7!2s71%20Rue%20d&#39;Orl%C3%A9ans%2C%2049400%20Saumur!5e0!3m2!1sfr!2sfr!4v1595847498235!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
