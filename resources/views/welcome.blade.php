@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
   <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+  
   <!-- Styles -->
 <style>
   html, body {
@@ -20,6 +21,7 @@
   .full-height {
     height: 100vh;
   }
+ 
   h3{
     margin-left: 3%;
     font-family: 'Faustina', serif;
@@ -237,23 +239,25 @@
 <body>
   <div class="content" id="content">
 
+
     <div class="m-b-md">
-      <img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
-      <a href="">Connexion</a>
+      <a href="#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
+      <a href="" class="lien_connexion">Connexion</a>
     </div>
     <div class="links">
       <a href="#text-justify">Ecole</a>
-      <a href="#Information">Formule</a>
+      <a href="#flip-card">Formule</a>
       <a href="#Information">Contact</a>
+      
     </div>
   </div>
   
   <div class="fil-actualite">
-    
+  
     <div class="actualite">
       <h3>PORTES OUVERTES LE 05 SEPTEMBRE 2020, de 14h à 19h.</h3>
       <p class="text-justify actualite">
-      </br>
+      
         <em>"Le Point d'Orgue, l'école qui swing !"</em></br>
         L'école de musique du Point d'Orgue, a été créée en 1978. Elle propose l'enseignement de nombreux cours, en solo, binôme ou groupe.
         De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique.
@@ -267,6 +271,7 @@
   <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium optio corporis sed aperiam consectetur odit dolore adipisci repellat, ipsam expedita perferendis? Inventore perspiciatis quod debitis et dolor, dignissimos libero maiores? Quos eos iusto perspiciatis, architecto sed corporis. Vero, est! Illum nemo asperiores delectus numquam! Sint magni est fugiat, commodi animi quisquam suscipit mollitia officiis nostrum voluptate pariatur molestiae iusto voluptas, distinctio delectus ullam quos perferendis ab debitis ea. Ipsum culpa obcaecati voluptatum asperiores inventore perspiciatis officiis nemo placeat exercitationem itaque quam, temporibus dolor expedita doloribus, aut distinctio possimus. At voluptatum ducimus dolor aliquid maiores in reprehenderit neque aliquam, qui beatae, optio natus aut dolores similique. Ad fuga, deserunt eum nam sint incidunt placeat! Odio, libero facilis atque repellendus dolores ipsa!<a href="enseignant" > Découvrez nos enseignants</a>
   </p>
   @php
+  
     $alt=[ "Formule cours particuliers", 
             "Formule à deux",
             "Chant à deux",
@@ -276,8 +281,17 @@
             "Chorale adultes",
             "Eveil musical"
     ];
+    $alt2=[ "For particuliers", 
+            "Formuleux",
+            "Chax",
+            "Cho3ans)",
+            "Cho11 ans)",
+            "Cho8ans)",
+            "Cho",
+            "Vei"
+    ];
     $image=["{{ asset('image/drum.png') }}\"",
-    "{{ asset('image/drum.png') }}\"",
+    "{{ asset('image/saxo.png') }}\"",
     "{{ asset('image/violin.png') }}\"",
     "{{ asset('image/violin.png') }}\"",
     "{{ asset('image/violin.png') }}\"",
@@ -287,15 +301,15 @@
     ];
     $stock = "<div class=\"main-card\">";
     
-    for ($i = 0; $i < 8; $i++) {
-        $stock .= "<div class=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"";
-        $stock .= $image[$i]."><p>";
-        $stock .= $alt[$i]."</p></div> <div class=\"flip-card-back\"><p>";
-        $stock .= $alt[$i]."</p></div></div></div>";
-        if ($i == 2 || $i== 5) {
-            $stock .= "</div><div class=\"main-card\">";
-        }
-    }  
+      for ($i = 0; $i < 8; $i++) {
+          $stock .= "<div class=\"flip-card\" id=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"{{ asset('..image/drums.png') }}";
+          $stock .= $image[$i]."\"><p>";
+          $stock .= $alt[$i]."</p></div> <div class=\"flip-card-back\"><p>";
+          $stock .= $alt[$i]."</p></div></div></div>";
+          if ($i == 2 || $i== 5) {
+              $stock .= "</div><div class=\"main-card\">";
+          }
+      }
     echo $stock;
   @endphp
   </div>
@@ -306,7 +320,7 @@
 
   <div class="main-renseignement">
   <form class="main">
-    <p class="Information">Renseignement / Pré-inscription</p>
+    <p class="Information" id="Information">Renseignement / Pré-inscription</p>
     <div class="form-row">
 
       <div class="form-group col-md-6">
