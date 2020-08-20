@@ -50,7 +50,7 @@
   .m-b-md {
     height: 150px;
     margin-bottom: 30px;
-    background: #636b6f;
+    background:#4c98be;
     color: black;
   }
   .lien_connexion{
@@ -241,8 +241,12 @@
 
 
     <div class="m-b-md">
+
       <a href="#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
       <a href="" class="lien_connexion">Connexion</a>
+
+      
+
     </div>
     <div class="links">
       <a href="#text-justify">Ecole</a>
@@ -301,6 +305,7 @@
     ];
     $stock = "<div class=\"main-card\">";
     
+
       for ($i = 0; $i < 8; $i++) {
           $stock .= "<div class=\"flip-card\" id=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"{{ asset('..image/drums.png') }}";
           $stock .= $image[$i]."\"><p>";
@@ -310,10 +315,21 @@
               $stock .= "</div><div class=\"main-card\">";
           }
       }
+
+    for ($i = 0; $i < 8; $i++) {
+        $stock .= "<div class=\"flip-card\" id=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"{{ asset('image/drum.png') }}";
+        $stock .= $image[$i]."\"><p>";
+        $stock .= $alt[$i]."</p></div> <div class=\"flip-card-back\"><p>";
+        $stock .= $alt[$i]."</p></div></div></div>";
+        if ($i == 2 || $i== 5) {
+            $stock .= "</div><div class=\"main-card\">";
+        }
+    }  
+
     echo $stock;
   @endphp
   </div>
-
+  <img src="{{ asset('image/drum.png') }}">
 <p class="text-justify">Pour vous inscrire : <a href=""><img src="{{ asset('image/pdf.jpg') }}" height="50" width="100"></a></p>
   <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement">Cliquez ici !</a></p>
     
