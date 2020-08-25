@@ -4,61 +4,13 @@
         <meta charset="utf-8">
         <link href="{{ asset('css/bootstrap.css')}}"rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
 
         <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-
-    <style>
-      html, body {
-        background-color: #fff;
-        color: #636b6f;
-        font-family: 'Asap', sans-serif;
-        height: 100vh;
-        margin: 0;
-      }
-        .content {
-            text-align: center;
-            font-family: 'Faustina', serif;
-          }
-        .links > a {
-            color: blue;
-            padding: 0 100px;
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .1rem;
-            text-decoration: none;
-            text-transform: uppercase;
-          }
-          a {
-            color: blue;
-          }
-          .m-b-md {
-            height: 150px;
-            margin-bottom: 30px;
-            background: #636b6f;
-            color: black;
-          }
-          .lien_connexion{
-            float: right;
-          }
-<!-- reglement-->
-          h4{
-            margin-top: 3%;
-            padding-left:3%;
-            font-family: 'Faustina', serif;
-        }
-}
-.reglement{
-    padding-left:3%;
-    padding-right: 3%;
-    margin-top: 2%;
-    font-family: 'Asap', sans-serif;
-}
-</style>
         </head>
         <body>
         <div class="content">

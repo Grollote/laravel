@@ -29,3 +29,8 @@ Route::get('/reglement', function () {
 Route::get('/enseignant', function () {
     return view('enseignant');
 });
+
+
+Route::get('/mentions', function () {
+    return view('mentions');
+});

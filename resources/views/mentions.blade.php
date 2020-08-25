@@ -4,27 +4,13 @@
         <meta charset="utf-8">
         <link href="{{ asset('css/bootstrap.css')}}"rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
         <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Asap', sans-serif;
-                height: 100vh;
-                margin: 0;
-              }
-            .h4{
-                margin-top: 3%;
-                padding-left:3%;
-                font-family: 'Faustina', serif;
-            }
-        </style>
         <body>
 <h4>Mentions Légales</h4>
 Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l’économie numérique, il est précisé aux utilisateurs du site NOM SITE ECOLE l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi.

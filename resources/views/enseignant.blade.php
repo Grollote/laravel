@@ -4,94 +4,14 @@
     <head>
         <meta charset="utf-8">
         <link href="{{ asset('css/bootstrap.css')}}"rel="stylesheet">
+        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
-
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Asap', sans-serif;
-                height: 100vh;
-                margin: 0;
-              }
-            .menu {
-                text-align: center;
-                font-family: 'Asap', sans-serif;
-              }
-            .links > a {
-                color: rgba(38, 0, 255, 0.692);
-                padding: 0 100px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-              }
-              a {
-                color: blue;
-              }
-              .m-b-md {
-                height: 150px;
-                margin-bottom: 30px;
-                background: #636b6f;
-                color: black;
-              }
-              h4{
-                margin-top: 3%;
-                padding-left:3%;
-                font-family: 'Faustina', serif;
-            }
-    .lien_connexion{
-        float: right;
-    }
-    .card-wrapper{
-        height:400px;
-        width:300px;
-        perspective: 1000px;
-    }
-    
-    .content{
-        position: relative;
-        width:100%;
-        height:100%;
-        text-align:center;
-        transition:transform 0.8s;
-        transform-style: preserve-3d;
-        box-shadow: 1px 1px 12px #555;
-    }
-    .card-wrapper:hover .content {
-        transform: rotateY(180deg);
-        transition: 1s;
-    }
-    
-    .face-front, .face-back{
-       position: absolute;
-       width: 100%;
-       height: 100%; 
-       background-color:#fff;
-       color: black;
-    }
-    
-    .face-back{
-        transform: rotateY(180deg);
-    }
-    
-    .name{
-        font-family: 'Faustina', serif;
-    }
-    
-    .texte{
-        font-family: 'Asap', sans-serif;
-    }
-    
-    
-        </style>
         </head>
     <body>
     <!--menu-->
@@ -121,7 +41,7 @@
     
                     <div class="col-md-3 m-4 pl-auto">
                         <div class="card-wrapper">
-                            <div class="content">
+                            <div class="card">
                                 <div class="face-front z-depth-2">
                                     <img src="{{ asset('image/a.blandin.png') }} " >
     
@@ -142,7 +62,7 @@
     
                     <div class="col-md-3 m-4 pl-auto">
                         <div class="card-wrapper">
-                            <div class="content">
+                            <div class="card">
                                 <div class="face-front z-depth-2">
                                     <img src="{{ asset('image/e.bagourd.png') }} ">
     
@@ -163,7 +83,7 @@
     
                     <div class="col-md-3 m-4 pl-auto">
                         <div class="card-wrapper">
-                            <div class="content">
+                            <div class="card">
                                 <div class="face-front z-depth-2">
                                     <img src="{{ asset('image/a.leveque.png') }} " >
     
@@ -191,7 +111,7 @@
     
                     <div class="col-md-3 m-4 pl-auto">
                         <div class="card-wrapper">
-                            <div class="content">
+                            <div class="card">
                                 <div class="face-front z-depth-2">
                                     <img src="{{ asset('image/a.duret.png') }} " >
     
@@ -212,7 +132,7 @@
     
                     <div class="col-md-3 m-4 pl-auto">
                         <div class="card-wrapper">
-                            <div class="content">
+                            <div class="card">
                                 <div class="face-front z-depth-2">
                                     <img src="{{ asset('image/drums.png') }} " >
     
@@ -233,7 +153,7 @@
     
                     <div class="col-md-3 m-4 pl-auto">
                         <div class="card-wrapper">
-                            <div class="content">
+                            <div class="card">
                                 <div class="face-front z-depth-2">
                                     <img src="{{ asset('image/saxo.png') }} " >
     
@@ -262,7 +182,7 @@
     
             <div class="col-md-3 m-4 pl-auto">
                 <div class="card-wrapper">
-                    <div class="content">
+                    <div class="card">
                         <div class="face-front z-depth-2">
                             <img src="{{ asset('image/b.druard.png') }} ">
     
@@ -283,7 +203,7 @@
             
             <div class="col-md-3 m-4 pl-auto">
                 <div class="card-wrapper">
-                    <div class="content">
+                    <div class="card">
                         <div class="face-front z-depth-2">
                             <img src="{{ asset('image/p.lefrancois.png') }} " >
     
@@ -304,7 +224,7 @@
     
             <div class="col-md-3 m-4 pl-auto">
                 <div class="card-wrapper">
-                    <div class="content">
+                    <div class="card">
                         <div class="face-front z-depth-2">
                             <img src="{{ asset('image/bass.png') }} ">
     
@@ -325,7 +245,7 @@
 
             <div class="col-md-3 m-4 pl-auto">
                 <div class="card-wrapper">
-                    <div class="content">
+                    <div class="card">
                         <div class="face-front z-depth-2">
                             <img src="{{ asset('image/p.nivelle.png') }} " >
     
@@ -353,7 +273,7 @@
           
                 </div>
                 <div class="mentions">
-                  <a href=""> Mentions Légales</a>
+                  <a href="mentions"> Mentions Légales</a>
                 </div>
           
               </footer>        
