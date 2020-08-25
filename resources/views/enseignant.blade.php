@@ -42,23 +42,14 @@
                 background: #636b6f;
                 color: black;
               }
-              .m-b-md > a {
-                float: right;
-              }
-    
-              .animated infinite fadeIn{
-                  animation-duration: 6s;
-                  animation-delay:2s;
-                  repeat:2;
-    
-              }
-    
               h4{
                 margin-top: 3%;
                 padding-left:3%;
                 font-family: 'Faustina', serif;
             }
-    
+    .lien_connexion{
+        float: right;
+    }
     .card-wrapper{
         height:400px;
         width:300px;
@@ -106,15 +97,16 @@
     <!--menu-->
     
     
-        <div class="menu">
+        <div class="menu" id="menu">
             <div class="m-b-md">
-              <img class="animated infinite bounce slower" src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
-              <a href="">Connexion</a>
+                <a href="/#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
+              <a href="" class="lien_connexion">Connexion</a>
+
             </div>
             <div class="links">
-              <a href="">Ecole</a>
-              <a href="">Formule</a>
-              <a href="">Contact</a>
+                <a href="/#text-justify">Ecole</a>
+                <a href="/#flip-card">Formule</a>
+                <a href="/#Information">Contact</a>
             </div>
           </div>
     

@@ -238,14 +238,9 @@
   <div class="content" id="content">
 
     <div class="m-b-md">
-<<<<<<< HEAD
       <a href="#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
       <a href="" class="lien_connexion">Connexion</a>
 
-=======
-      <img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
-      <a href="">Connexion</a>
->>>>>>> f126353c8047721eb89a0b7e675ee813466686b5
     </div>
     <div class="links">
       <a href="#text-justify">Ecole</a>
@@ -260,16 +255,16 @@
       <h3>PORTES OUVERTES LE 05 SEPTEMBRE 2020, de 14h à 19h.</h3>
       <p class="text-justify actualite">
       </br>
-        <em>"Le Point d'Orgue, l'école qui swing !"</em></br>
-        L'école de musique du Point d'Orgue, a été créée en 1978. Elle propose l'enseignement de nombreux cours, en solo, binôme ou groupe.
-        De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique.
+        <em>"Le Point d'Orgue, l école qui swing !"</em></br>
+        L école de musique du Point d Orgue, a été créée en 1978. Elle propose l enseignement de nombreux cours, en solo, binôme ou groupe.
+        De la guitare, au saxophone, en passant par l éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L année est ponctuée d évènements, comme le concert de l école ou la participation à la Fête de la musique.
       </p>
     </div>
 
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-  <h1 class="text-justify">Présentation de l'entreprise </h1>
+  <h1 class="text-justify" id="text-justify">Présentation de l entreprise </h1>
   <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium optio corporis sed aperiam consectetur odit dolore adipisci repellat, ipsam expedita perferendis? Inventore perspiciatis quod debitis et dolor, dignissimos libero maiores? Quos eos iusto perspiciatis, architecto sed corporis. Vero, est! Illum nemo asperiores delectus numquam! Sint magni est fugiat, commodi animi quisquam suscipit mollitia officiis nostrum voluptate pariatur molestiae iusto voluptas, distinctio delectus ullam quos perferendis ab debitis ea. Ipsum culpa obcaecati voluptatum asperiores inventore perspiciatis officiis nemo placeat exercitationem itaque quam, temporibus dolor expedita doloribus, aut distinctio possimus. At voluptatum ducimus dolor aliquid maiores in reprehenderit neque aliquam, qui beatae, optio natus aut dolores similique. Ad fuga, deserunt eum nam sint incidunt placeat! Odio, libero facilis atque repellendus dolores ipsa!<a href="enseignant" > Découvrez nos enseignants</a>
   </p>
   @php
@@ -282,20 +277,20 @@
             "Chorale adultes",
             "Eveil musical"
     ];
-    $image=["{{ asset('image/drum.png') }}\"",
-    "{{ asset('image/drum.png') }}\"",
-    "{{ asset('image/violin.png') }}\"",
-    "{{ asset('image/violin.png') }}\"",
-    "{{ asset('image/violin.png') }}\"",
-    "{{ asset('image/violin.png') }}\"",
-    "{{ asset('image/violin.png') }}\"",
-    "{{ asset('image/violin.png') }}\"",
+    $image=["{{ asset('image/bass.png') }}",
+    "{{ asset('image/drums.png') }}",
+    "{{ asset('image/e.bagourd.png') }}",
+    "{{ asset('image/email.png') }}",
+    "{{ asset('image/instagram.png') }}",
+    "{{ asset('image/violin.png') }}",
+    "{{ asset('image/violin.png') }}",
+    "{{ asset('image/violin.png') }}",
     ];
     $stock = "<div class=\"main-card\">";
     
     for ($i = 0; $i < 8; $i++) {
-        $stock .= "<div class=\"flip-card\" id=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"{{ asset('image/drum.png') }}";
-        $stock .= $image[$i]."\"><p>";
+        $stock .= "<div class=\"flip-card\" id=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"";
+        $stock .= $image[$i]. "\"><p>";
         $stock .= $alt[$i]."</p></div> <div class=\"flip-card-back\"><p>";
         $stock .= $alt[$i]."</p></div></div></div>";
         if ($i == 2 || $i== 5) {
@@ -305,14 +300,13 @@
     echo $stock;
   @endphp
   </div>
-  <img src="{{ asset('image/drum.png') }}">
 <p class="text-justify">Pour vous inscrire : <a href=""><img src="{{ asset('image/pdf.jpg') }}" height="50" width="100"></a></p>
   <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement">Cliquez ici !</a></p>
     
 
   <div class="main-renseignement">
   <form class="main">
-    <p class="Information">Renseignement / Pré-inscription</p>
+    <p class="Information" id="Information">Renseignement / Pré-inscription</p>
     <div class="form-row">
 
       <div class="form-group col-md-6">
@@ -371,7 +365,7 @@
     <button>Envoyer</button>
   </form>
   <div class="main-coordonnees">
-    <p class="Titre-coordonnées">Coordonnées de l'école</p>
+    <p class="Titre-coordonnées">Coordonnées de l école</p>
     <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
     <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
     <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>
