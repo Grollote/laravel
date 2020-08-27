@@ -15,7 +15,7 @@
 
 
     <div class="m-b-md">
-      <a href="#content"><img src="image/point-dorgue.png" class="logotype" alt="point d'orgue"></a>
+      <a href="#content"><img src="image/point-dorgue.png" class="logotype fadein" alt="point d'orgue"></a>
       <a href="" class="lien_connexion">Connexion</a>
 
     </div>
@@ -34,7 +34,7 @@
       <p class="text-justify actualite">
       </br>
         <em>"Le Point d'Orgue, l'école qui swing !"</em></br></br>
-        L	&#039école de musique Le Point d'Orgue vous accueille au 71 rue d'Orléans à Saumur. Vous pouvez vous initier à toutes sortes d'instruments ou au chant. L'école accueille les élèves de tous âges dans une ambiance conviviale. Si vous souhaitez nous rejoindre ou demander de plus amples informations, n'hésitez pas à nous contacter via le formulaire plus bas, par téléphone ou mail.
+        L'école de musique Le Point d'Orgue vous accueille au 71 rue d'Orléans à Saumur. Vous pouvez vous initier à toutes sortes d'instruments ou au chant. L'école accueille les élèves de tous âges dans une ambiance conviviale. Si vous souhaitez nous rejoindre ou demander de plus amples informations, n'hésitez pas à nous contacter via le formulaire plus bas, par téléphone ou mail.
       </p>
     </div>
 
@@ -43,20 +43,23 @@
   
   <h2 class="text-justify" id="text-justify">Présentation de l'entreprise </h2>
   <p class="text-justify">L'école de musique du Point d'Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
-    De la guitare, au saxophone, en passant par l	&#039éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
+    De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
   </p>
   
-
+  <h2 class="text-justify" id="text-justify">Les cours et formules </h2>
+  <p class="text-justify">Le droit d'adhésion à l'année est de 39€ pour un élève / 59€ pour deux élèves du même foyer / 79€ pour plus de trois élèves du même foyer. </br>
+  Le cours à la carte est de 39€ de l'heure.
+  </p>
   @php
   
-    $alt=[ "Formule cours particuliers", 
-            "Formule à deux",
-            "Chant à deux (ados)",
-            "Chorale enfant (11 à 13 ans)",
-            "Chorale enfant (9 à 10 ans)",
-            "Chorale enfant (7 à 8 ans)",
-            "Chorale adultes",
-            "Eveil musical (5 à 7 ans)"
+    $alt=[ "FORMULE DES COURS PARTICULIERS", 
+            "FORMULE DES COURS A DEUX",
+            "CHANT A DEUX (ados)",
+            "CHORALE ENFANTS (11 à 13 ans)",
+            "CHORALE ENFANTS (9 à 10 ans)",
+            "CHORALE ENFANTS (7 à 8 ans)",
+            "CHORALE ADULTES",
+            "EVEIL MUSICAL (5 à 7 ans)"
     ];
     $alt2=[ "</br>550€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 55€ par mois pour 1/2h de cours par semaine, durant 33 semaines. (toutes disciplines)", 
             "</br>480€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 48€ par mois pour 1/2h de cours par semaine, durant 33 semaines (guitare, batterie, piano).",
@@ -64,7 +67,7 @@
             "</br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 14h à 14h45.</br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)",
             "</br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 14h45 à 15h30.</br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)",
             "</br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 15h30 à 16h15. </br>Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)",
-            "</br>280€ </br><em>formule annuelle</em></br></br> Le lundi de 20h à 21h et </br>le mardi de 19h à 20h. </br> Réglable en 10 mensualités de 28€ par mois pour 1h de cours par semaine, durant 33 semaines. ",
+            "</br>280€ </br><em>formule annuelle</em></br></br> Le lundi de 20h à 21h et le mardi de 19h à 20h. </br> Réglable en 10 mensualités de 28€ par mois </br>pour 1h de cours par semaine, durant 33 semaines. ",
             "</br>180€ </br> <em>formule annuelle</em></br></br>Le mercredi (horaires à définir). </br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines."
     ];
     $image=["/image/groupe.png",
@@ -168,12 +171,12 @@
       
     <footer>
       <div class="icone">
-        <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
-        <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
+        <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
+        <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
 
       </div>
       <div class="mentions">
-        <a href="mentions"> Mentions Légales</a>
+        <a href="mentions"target="_blank"> Mentions Légales</a>
       </div>
 
     </footer>

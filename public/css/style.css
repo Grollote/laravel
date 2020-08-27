@@ -14,6 +14,37 @@ html, body {
     width:auto;
     margin-top: 2%;
  }
+ .fadein {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
   .content {
     text-align: center;
   }
@@ -36,14 +67,14 @@ html, body {
   .m-b-md {
     height: 180px;
     margin-bottom: 30px;
-    background:#4c98be;
+    background:linear-gradient(#4c98be, #4fb5e7,  #4ec4ff);
     color: black;
   }
   .lien_connexion{
     float: right;
   }
   .text-justify{
-    margin: 2% 0 2% 5%;
+    margin: 2% 0 3% 5%;
     width: 80%;
   }
   .actualite{
@@ -99,18 +130,18 @@ html, body {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    background: rgba(116, 204, 255, 0.829);
-
+    background:#4c98be;
   }
   
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
-    color: black;
+    color:#636b6f;
   }
   
   /* Style the back side */
   .flip-card-back {
-    color: black;
+    font-size: 14px;
+    color: white;
     transform: rotateY(180deg);
   }
 
