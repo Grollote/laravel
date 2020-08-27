@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
-  <title>Laravel</title>
+  <title>Le Point d'Orgue</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
@@ -21,7 +21,7 @@
     </div>
     <div class="links">
       <a href="#text-justify">Ecole</a>
-      <a href="#flip-card">Formule</a>
+      <a href="#flip-card">Formules</a>
       <a href="#information">Contact</a>
       
     </div>

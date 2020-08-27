@@ -19,14 +19,14 @@
     
         <div class="menu" id="menu">
             <div class="m-b-md">
-                <a href="/#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto">
+                <a href="/#content"><img src="image/point-dorgue.png" class="logotype fadein"alt="point d'orgue" height="150" width="auto">
               <a href="" class="lien_connexion">Connexion</a>
 
             </div>
             <div class="links">
                 <a href="/#text-justify">Ecole</a>
-                <a href="/#flip-card">Formule</a>
-                <a href="/#Information">Contact</a>
+                <a href="/#flip-card">Formules</a>
+                <a href="/#information">Contact</a>
             </div>
           </div>
     
@@ -266,16 +266,16 @@
         </div>
     </div>
     
-            <footer>
-                <div class="icone">
-                  <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
-                  <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
-          
-                </div>
-                <div class="mentions">
-                  <a href="mentions"> Mentions Légales</a>
-                </div>
-          
-              </footer>        
-        </body>
-    </html>
+    <footer>
+        <div class="icone">
+          <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
+          <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
+  
+        </div>
+        <div class="mentions">
+          <a href="mentions"target="_blank"> Mentions Légales</a>
+        </div>
+  
+      </footer>
+  </body>
+  </html>
