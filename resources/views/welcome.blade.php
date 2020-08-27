@@ -3,13 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
-<<<<<<< HEAD
   <meta name="description" content="L'école de musique, Le Point d'Orgue, située à Saumur vous propose des cours de guitare, chant, batterie, violon et bien d'autres. Venez apprendre la musique à tout âge !"/>
   <meta name="keywords" content="ecole, musique, saumur, point, orgue"/>
   <title>Le Point d'Orgue, école de musique</title>
-=======
-  <title>Le Point d&#039Orgue</title>
->>>>>>> e31bf1fbdd38cc57b870961779e886b79033461a
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
@@ -167,7 +163,7 @@
     <button>Envoyer</button>
   </form>
   <div class="main-coordonnees">
-    <p class="Titre-coordonnées">Coordonnées de l&#039école</p>
+    <p class="Titre-coordonnées">Coordonnées de l'école</p>
     <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
     <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
     <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>

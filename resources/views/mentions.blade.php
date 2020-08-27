@@ -20,7 +20,7 @@
         <div class="menu" id="menu">
             <div class="m-b-md">
                 <a href="/#content"><img src="image/point-dorgue.png" class="logotype fadein"alt="point d'orgue" height="150" width="auto">
-              <a href="" class="lien_connexion">Connexion</a>
+              <a href="connexion" class="lien_connexion">Connexion</a>
 
             </div>
             <div class="links">

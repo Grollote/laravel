@@ -20,7 +20,7 @@
         <div class="menu" id="menu">
             <div class="m-b-md">
                 <a href="/#content"><img src="image/point-dorgue.png" class="logotype fadein"alt="ecole musique point d'orgue  saumur guitare batterie chant" >
-              <a href="" class="lien_connexion">Connexion</a>
+              <a href="connexion" class="lien_connexion">Connexion</a>
 
             </div>
             <div class="links">

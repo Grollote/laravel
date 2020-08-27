@@ -6,31 +6,36 @@
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
 
         <title>Le Point d'Orgue, école de musique</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
         </head>
-    <body>
-  
-    
-    
-        <div class="menu" id="menu">
-            <div class="m-b-md">
-                <a href="/#content"><img src="image/point-dorgue.png" class="logotype fadein"alt="point d'orgue" height="150" width="auto">
-              
-            </div>
-            <div class="links">
-                <a href="/#text-justify">Ecole</a>
-                <a href="/#flip-card">Formules</a>
-                <a href="/#information">Contact</a>
+        <body>
+
+            <div class="content" id="content">
+          
+          
+              <div class="m-b-md">
+                <a href="#content"><img src="image/point-dorgue.png" class="logotype fadein" alt="ecole musique point d'orgue  saumur guitare batterie chant"></a>
+                <a href="connexion"target="_blank" class="lien_connexion">Connexion</a>
+          
+              </div>
+              <div class="links">
+                <a href="#text-justify">Ecole</a>
+                <a href="#flip-card">Formules</a>
+                <a href="#information">Contact</a>
+                
+              </div>
             </div>
         </div>
-    
-          
-    
-    
+        
+    <p>ndjfgvbndvfb</p>
+        </div>
+        
+   
     <footer>
         <div class="icone">
           <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
