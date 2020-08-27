@@ -41,8 +41,8 @@
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-  <h2 class="text-justify" id="text-justify">Présentation de l&#039entreprise </h2>
-  <p class="text-justify">L&#039école de musique du Point d Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
+  <h2 class="text-justify" id="text-justify">Présentation de l'entreprise </h2>
+  <p class="text-justify">L'école de musique du Point d'Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
     De la guitare, au saxophone, en passant par l	&#039éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
   </p>
   
@@ -51,21 +51,21 @@
   
     $alt=[ "Formule cours particuliers", 
             "Formule à deux",
-            "Chant à deux",
-            "Chorale enfant(11 à 13ans)",
-            "Chorale enfant (9 à 11 ans)",
-            "Chorale enfant(7 à 8ans)",
+            "Chant à deux (ados)",
+            "Chorale enfant (11 à 13 ans)",
+            "Chorale enfant (9 à 10 ans)",
+            "Chorale enfant (7 à 8 ans)",
             "Chorale adultes",
-            "Eveil musical"
+            "Eveil musical (5 à 7 ans)"
     ];
-    $alt2=[ "For particuliers", 
-            "Formuleux",
-            "Chax",
-            "Cho3ans)",
-            "Cho11 ans)",
-            "Cho8ans)",
-            "Cho",
-            "Vei"
+    $alt2=[ "</br>550€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 55€ par mois pour 1/2h de cours par semaine, durant 33 semaines. (toutes disciplines)", 
+            "</br>480€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 48€ par mois pour 1/2h de cours par semaine, durant 33 semaines (guitare, batterie, piano).",
+            "</br>440€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 44€ par mois pour 1/2h de cours par semaine, durant 33 semaines.",
+            "</br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 14h à 14h45.</br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)",
+            "</br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 14h45 à 15h30.</br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)",
+            "</br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 15h30 à 16h15. </br>Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)",
+            "</br>280€ </br><em>formule annuelle</em></br></br> Le lundi de 20h à 21h et </br>le mardi de 19h à 20h. </br> Réglable en 10 mensualités de 28€ par mois pour 1h de cours par semaine, durant 33 semaines. ",
+            "</br>180€ </br> <em>formule annuelle</em></br></br>Le mercredi (horaires à définir). </br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines."
     ];
     $image=["/image/groupe.png",
     "/image/groupe.png",

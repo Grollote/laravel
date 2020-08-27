@@ -62,7 +62,6 @@ html, body {
     font-family: 'Faustina', serif;
     font-weight: bold;
     color: #4c98be;
-    text-shadow: 1px 1px #1f2efd;
   }
   .main-card{
     display: flex;
@@ -100,7 +99,7 @@ html, body {
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
-    background: radial-gradient(#ffffff,#999999);
+    background: rgba(116, 204, 255, 0.829);
 
   }
   
@@ -114,6 +113,8 @@ html, body {
     color: black;
     transform: rotateY(180deg);
   }
+
+  /*FORMULAIRE*/
   .main-form{
     display: flex;
   }
