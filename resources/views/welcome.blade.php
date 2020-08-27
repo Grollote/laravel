@@ -34,16 +34,16 @@
       <p class="text-justify actualite">
       </br>
         <em>"Le Point d'Orgue, l'école qui swing !"</em></br></br>
-        L'école de musique Le Point d'Orgue vous accueille au 71 rue d'Orléans à Saumur. Vous pouvez vous initier à toutes sortes d'instruments ou au chant. L'école accueille les élèves de tous âges dans une ambiance conviviale. Si vous souhaitez nous rejoindre ou demander de plus amples informations, n'hésitez pas à nous contacter via le formulaire plus bas, par téléphone ou mail.
+        L	&#039école de musique Le Point d'Orgue vous accueille au 71 rue d'Orléans à Saumur. Vous pouvez vous initier à toutes sortes d'instruments ou au chant. L'école accueille les élèves de tous âges dans une ambiance conviviale. Si vous souhaitez nous rejoindre ou demander de plus amples informations, n'hésitez pas à nous contacter via le formulaire plus bas, par téléphone ou mail.
       </p>
     </div>
 
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-  <h2 class="text-justify" id="text-justify">Présentation de l'entreprise </h2>
-  <p class="text-justify">L'école de musique du Point d Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
-    De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
+  <h2 class="text-justify" id="text-justify">Présentation de l&#039entreprise </h2>
+  <p class="text-justify">L&#039école de musique du Point d Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
+    De la guitare, au saxophone, en passant par l	&#039éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
   </p>
   
 
@@ -67,23 +67,23 @@
             "Cho",
             "Vei"
     ];
-    $image=["{{ asset('../../public/image/groupe.png') }}",
-    "{{ asset('../../public/image/groupe.png') }}",
-    "{{ asset('image/e.bagourd.png') }}",
-    "{{ asset('image/email.png') }}",
-    "{{ asset('image/instagram.png') }}",
-    "{{ asset('image/violin.png') }}",
-    "{{ asset('image/violin.png') }}",
-    "{{ asset('image/violin.png') }}",
+    $image=["/image/groupe.png",
+    "/image/groupe.png",
+    "/image/groupe.png",
+    "/image/groupe.png",
+    "/image/groupe.png",
+    "/image/groupe.png",
+    "/image/groupe.png",
+    "/image/groupe.png",
     ];
     $stock = "<div class=\"main-card\">";
     
 
       for ($i = 0; $i < 8; $i++) {
-          $stock .= "<div class=\"flip-card\" id=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"{{ asset('..image/drums.png') }}";
+          $stock .= "<div class=\"flip-card\" id=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"";
           $stock .= $image[$i]."\"><p>";
           $stock .= $alt[$i]."</p></div> <div class=\"flip-card-back\"><p>";
-          $stock .= $alt[$i]."</p></div></div></div>";
+          $stock .= $alt2[$i]."</p></div></div></div>";
           if ($i == 2 || $i== 5) {
               $stock .= "</div><div class=\"main-card\">";
           }
