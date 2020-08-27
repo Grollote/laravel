@@ -16,7 +16,7 @@
 
     <div class="m-b-md">
       <a href="#content"><img src="image/point-dorgue.png" class="logotype fadein" alt="point d'orgue"></a>
-      <a href="" class="lien_connexion">Connexion</a>
+      <a href="connexion"target="_blank" class="lien_connexion">Connexion</a>
 
     </div>
     <div class="links">
@@ -94,6 +94,7 @@
     echo $stock;
   @endphp
   </div>
+
 <p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription.pdf') }}" target="_blank"><img src="{{ asset('image/pdf.png') }}"></a></p>
   <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement" target="_blank">Cliquez ici !</a></p>
     
@@ -135,7 +136,7 @@
             "Guitare acoustique",
             "Guitare électrique",
             "Batterie",
-            "Basse",
+            "Basse électrique",
             "Synthétiseur",
             "Saxophone",
             "Chorale ",
@@ -159,7 +160,7 @@
     <button>Envoyer</button>
   </form>
   <div class="main-coordonnees">
-    <p class="Titre-coordonnées">Coordonnées de l école</p>
+    <p class="Titre-coordonnées">Coordonnées de l'école</p>
     <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
     <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
     <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>
