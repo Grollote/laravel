@@ -15,14 +15,14 @@
 
 
     <div class="m-b-md">
-      <a href="#content"><img src="image/point-dorgue.png" alt="point d'orgue" height="150" width="auto"></a>
+      <a href="#content"><img src="image/point-dorgue.png" class="logotype" alt="point d'orgue"></a>
       <a href="" class="lien_connexion">Connexion</a>
 
     </div>
     <div class="links">
       <a href="#text-justify">Ecole</a>
       <a href="#flip-card">Formule</a>
-      <a href="#Information">Contact</a>
+      <a href="#information">Contact</a>
       
     </div>
   </div>
@@ -33,17 +33,17 @@
       <h3>PORTES OUVERTES LE 05 SEPTEMBRE 2020, de 14h à 19h.</h3>
       <p class="text-justify actualite">
       </br>
-        <em>"Le Point d'Orgue, l école qui swing !"</em></br>
-        L école de musique du Point d Orgue, a été créée en 1978. Elle propose l enseignement de nombreux cours, en solo, binôme ou groupe.
-        De la guitare, au saxophone, en passant par l éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L année est ponctuée d évènements, comme le concert de l école ou la participation à la Fête de la musique.
+        <em>"Le Point d'Orgue, l'école qui swing !"</em></br></br>
+        L'école de musique Le Point d'Orgue vous accueille au 71 rue d'Orléans à Saumur. Vous pouvez vous initier à toutes sortes d'instruments ou au chant. L'école accueille les élèves de tous âges dans une ambiance conviviale. Si vous souhaitez nous rejoindre ou demander de plus amples informations, n'hésitez pas à nous contacter via le formulaire plus bas, par téléphone ou mail.
       </p>
     </div>
 
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-  <h1 class="text-justify" id="text-justify">Présentation de l entreprise </h1>
-  <p class="text-justify">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium optio corporis sed aperiam consectetur odit dolore adipisci repellat, ipsam expedita perferendis? Inventore perspiciatis quod debitis et dolor, dignissimos libero maiores? Quos eos iusto perspiciatis, architecto sed corporis. Vero, est! Illum nemo asperiores delectus numquam! Sint magni est fugiat, commodi animi quisquam suscipit mollitia officiis nostrum voluptate pariatur molestiae iusto voluptas, distinctio delectus ullam quos perferendis ab debitis ea. Ipsum culpa obcaecati voluptatum asperiores inventore perspiciatis officiis nemo placeat exercitationem itaque quam, temporibus dolor expedita doloribus, aut distinctio possimus. At voluptatum ducimus dolor aliquid maiores in reprehenderit neque aliquam, qui beatae, optio natus aut dolores similique. Ad fuga, deserunt eum nam sint incidunt placeat! Odio, libero facilis atque repellendus dolores ipsa!<a href="enseignant" > Découvrez nos enseignants</a>
+  <h2 class="text-justify" id="text-justify">Présentation de l'entreprise </h2>
+  <p class="text-justify">L'école de musique du Point d Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
+    De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
   </p>
   @php
   
@@ -56,8 +56,8 @@
             "Chorale adultes",
             "Eveil musical"
     ];
-    $image=["{{ asset('image/bass.png') }}",
-    "{{ asset('image/drums.png') }}",
+    $image=["Formule annuelle : 550€ </br> Réglable en 10 mensualités de 55€ par mois pour 1/2h de cours par semaine durant 33 semaines (toutes disciplines).",
+    "{{ asset('../../public/image/groupe.png') }}",
     "{{ asset('image/e.bagourd.png') }}",
     "{{ asset('image/email.png') }}",
     "{{ asset('image/instagram.png') }}",
@@ -80,13 +80,13 @@
     echo $stock;
   @endphp
   </div>
-<p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription.pdf') }}"><img src="{{ asset('image/pdf.jpg') }}" height="50" width="100"></a></p>
-  <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement">Cliquez ici !</a></p>
+<p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription.pdf') }}" target="_blank"><img src="{{ asset('image/pdf.jpg') }}" height="50" width="100"></a></p>
+  <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement" target="_blank">Cliquez ici !</a></p>
     
 
   <div class="main-renseignement">
   <form class="main">
-    <p class="Information" id="Information">Renseignement / Pré-inscription</p>
+    <p class="information" id="information">Renseignement / Pré-inscription</p>
     <div class="form-row">
 
       <div class="form-group col-md-6">

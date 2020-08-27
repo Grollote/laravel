@@ -25,10 +25,11 @@
     </div>
   </div>
 
-  <h4>Règlement interne de l'école de musique : Le Point d'Orgue</h4>
+  <h3>Règlement interne de l'école de musique : Le Point d'Orgue</h3>
  
  <div class="reglement">
    <p>
+   </br>
      <strong>Rentrée le lundi 07 Septembre 2020 / Fin des cours le samedi 03 Juillet 2021, soit 33 cours répartis sur 10 mois scolaires.<br>
      </p>
      <p>  

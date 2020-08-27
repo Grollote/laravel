@@ -9,13 +9,11 @@ html, body {
   .full-height {
     height: 100vh;
   }
- 
-  h3{
-    margin-left: 3%;
-    font-family: 'Faustina', serif;
-    font-weight: bold;
-    color: #4c98be;
-  }
+ .logotype{
+    height:80%;
+    width:auto;
+    margin-top: 2%;
+ }
   .content {
     text-align: center;
   }
@@ -36,7 +34,7 @@ html, body {
     color: #09b6d4;
   }
   .m-b-md {
-    height: 150px;
+    height: 180px;
     margin-bottom: 30px;
     background:#4c98be;
     color: black;
@@ -45,14 +43,25 @@ html, body {
     float: right;
   }
   .text-justify{
-    margin: 50px 0 0 5%;
+    margin: 2% 0 2% 5%;
     width: 80%;
   }
   .actualite{
     width: 70%;
+    margin-left:3%;
   }
   .fil-actualite{
     display: flex;
+  }
+  iframe{
+    margin-right: 2%;
+  }
+  h3{
+    margin-left: 3%;
+    margin-top:5%;
+    font-family: 'Faustina', serif;
+    font-weight: bold;
+    color: #4c98be;
   }
   .main-card{
     display: flex;
@@ -119,7 +128,7 @@ html, body {
     height: 250px;
     width: auto;
   }
-  .Information{
+  .information{
     font-size: 32px;
   }
   .Titre-coordonnées{
