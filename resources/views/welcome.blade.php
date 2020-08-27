@@ -3,9 +3,13 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+<<<<<<< HEAD
   <meta name="description" content="L'école de musique, Le Point d'Orgue, située à Saumur vous propose des cours de guitare, chant, batterie, violon et bien d'autres. Venez apprendre la musique à tout âge !"/>
   <meta name="keywords" content="ecole, musique, saumur, point, orgue"/>
   <title>Le Point d'Orgue, école de musique</title>
+=======
+  <title>Le Point d&#039Orgue</title>
+>>>>>>> e31bf1fbdd38cc57b870961779e886b79033461a
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
@@ -37,7 +41,7 @@
       <p class="text-justify actualite">
       </br>
         <em>"Le Point d'Orgue, l'école qui swing !"</em></br></br>
-        L'école de musique Le Point d'Orgue vous accueille au 71 rue d'Orléans à Saumur. Vous pouvez vous initier à toutes sortes d'instruments ou au chant. L'école accueille les élèves de tous âges dans une ambiance conviviale. Si vous souhaitez nous rejoindre ou demander de plus amples informations, n'hésitez pas à nous contacter via le formulaire plus bas, par téléphone ou mail.
+        L&#039école de musique Le Point d'Orgue vous accueille au 71 rue d'Orléans à Saumur. Vous pouvez vous initier à toutes sortes d'instruments ou au chant. L'école accueille les élèves de tous âges dans une ambiance conviviale. Si vous souhaitez nous rejoindre ou demander de plus amples informations, n'hésitez pas à nous contacter via le formulaire plus bas, par téléphone ou mail.
       </p>
     </div>
 
@@ -50,8 +54,8 @@
   </p>
   
   <h2 class="text-justify" id="text-justify">Les cours et formules </h2>
-  <p class="text-justify">Le droit d'adhésion à l'année est de 39€ pour un élève / 59€ pour deux élèves du même foyer / 79€ pour plus de trois élèves du même foyer. </br>
-  Le cours à la carte est de 39€ de l'heure.
+  <p class="text-justify">Le droit d&#039adhésion à l'année est de 39€ pour un élève / 59€ pour deux élèves du même foyer / 79€ pour plus de trois élèves du même foyer. </br>
+  Le cours à la carte est de 39€ de l&#039heure.
   </p>
   @php
   
@@ -163,7 +167,7 @@
     <button>Envoyer</button>
   </form>
   <div class="main-coordonnees">
-    <p class="Titre-coordonnées">Coordonnées de l'école</p>
+    <p class="Titre-coordonnées">Coordonnées de l&#039école</p>
     <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
     <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
     <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>

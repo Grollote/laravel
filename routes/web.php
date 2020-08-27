@@ -34,3 +34,8 @@ Route::get('/enseignant', function () {
 Route::get('/mentions', function () {
     return view('mentions');
 });
+
+
+Route::get('/connexion', function () {
+    return view('connexion');
+});
