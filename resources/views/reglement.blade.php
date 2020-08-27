@@ -25,7 +25,7 @@
     </div>
   </div>
 
-  <h3>Règlement interne de l'école de musique : Le Point d'Orgue</h3>
+  <h4>Règlement interne de l'école de musique : Le Point d'Orgue</h4>
  
  <div class="reglement">
    <p>

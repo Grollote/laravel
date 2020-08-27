@@ -38,13 +38,15 @@
       </p>
     </div>
 
-    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId" width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
   <h2 class="text-justify" id="text-justify">Présentation de l'entreprise </h2>
   <p class="text-justify">L'école de musique du Point d Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
     De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
   </p>
+  
+
   @php
   
     $alt=[ "Formule cours particuliers", 
@@ -56,7 +58,16 @@
             "Chorale adultes",
             "Eveil musical"
     ];
-    $image=["Formule annuelle : 550€ </br> Réglable en 10 mensualités de 55€ par mois pour 1/2h de cours par semaine durant 33 semaines (toutes disciplines).",
+    $alt2=[ "For particuliers", 
+            "Formuleux",
+            "Chax",
+            "Cho3ans)",
+            "Cho11 ans)",
+            "Cho8ans)",
+            "Cho",
+            "Vei"
+    ];
+    $image=["{{ asset('../../public/image/groupe.png') }}",
     "{{ asset('../../public/image/groupe.png') }}",
     "{{ asset('image/e.bagourd.png') }}",
     "{{ asset('image/email.png') }}",
@@ -80,7 +91,7 @@
     echo $stock;
   @endphp
   </div>
-<p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription.pdf') }}" target="_blank"><img src="{{ asset('image/pdf.jpg') }}" height="50" width="100"></a></p>
+<p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription.pdf') }}" target="_blank"><img src="{{ asset('image/pdf.png') }}"></a></p>
   <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement" target="_blank">Cliquez ici !</a></p>
     
 
