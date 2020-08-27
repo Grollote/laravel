@@ -7,7 +7,7 @@
         <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 
-        <title>Règlement intérieur</title>
+        <title>Le Point d'Orgue, école de musique</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">

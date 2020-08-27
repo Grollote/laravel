@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
-  <title>Le Point d'Orgue</title>
+  <meta name="description" content="L'école de musique, Le Point d'Orgue, située à Saumur vous propose des cours de guitare, chant, batterie, violon et bien d'autres. Venez apprendre la musique à tout âge !"/>
+  <meta name="keywords" content="ecole, musique, saumur, point, orgue"/>
+  <title>Le Point d'Orgue, école de musique</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
@@ -11,11 +13,12 @@
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 <body>
+
   <div class="content" id="content">
 
 
     <div class="m-b-md">
-      <a href="#content"><img src="image/point-dorgue.png" class="logotype fadein" alt="point d'orgue"></a>
+      <a href="#content"><img src="image/point-dorgue.png" class="logotype fadein" alt="ecole musique point d'orgue  saumur guitare batterie chant"></a>
       <a href="connexion"target="_blank" class="lien_connexion">Connexion</a>
 
     </div>
@@ -26,7 +29,7 @@
       
     </div>
   </div>
-  
+
   <div class="fil-actualite">
   
     <div class="actualite">
@@ -41,7 +44,7 @@
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-  <h2 class="text-justify" id="text-justify">Présentation de l'entreprise </h2>
+  <h2 class="text-justify" id="text-justify">Présentation de l'école </h2>
   <p class="text-justify">L'école de musique du Point d'Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
     De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
   </p>
@@ -70,13 +73,13 @@
             "</br>280€ </br><em>formule annuelle</em></br></br> Le lundi de 20h à 21h et le mardi de 19h à 20h. </br> Réglable en 10 mensualités de 28€ par mois </br>pour 1h de cours par semaine, durant 33 semaines. ",
             "</br>180€ </br> <em>formule annuelle</em></br></br>Le mercredi (horaires à définir). </br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines."
     ];
-    $image=["/image/groupe.png",
-    "/image/groupe.png",
-    "/image/groupe.png",
-    "/image/groupe.png",
-    "/image/groupe.png",
-    "/image/groupe.png",
-    "/image/groupe.png",
+    $image=["/image/musique-solo.png",
+    "/image/musique-duo.png",
+    "/image/musique-ado2.png",
+    "/image/musique-ado.png",
+    "/image/musique-chorale.png",
+    "/image/musique-enfant.png",
+    "/image/musique-chorale-adulte.png",
     "/image/groupe.png",
     ];
     $stock = "<div class=\"main-card\">";
@@ -172,8 +175,8 @@
       
     <footer>
       <div class="icone">
-        <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
-        <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
+        <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
+        <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
 
       </div>
       <div class="mentions">

@@ -8,7 +8,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Le Point d'Orgue, école de musique</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
     
         <div class="menu" id="menu">
             <div class="m-b-md">
-                <a href="/#content"><img src="image/point-dorgue.png" class="logotype fadein"alt="point d'orgue" height="150" width="auto">
+                <a href="/#content"><img src="image/point-dorgue.png" class="logotype fadein"alt="ecole musique point d'orgue  saumur guitare batterie chant" >
               <a href="" class="lien_connexion">Connexion</a>
 
             </div>
@@ -43,7 +43,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/a.blandin.png') }} " >
+                                    <img src="{{ asset('image/a.blandin.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
     
                                     <div class="card-body">
                                         <h5 class="name">Agnès Blandin</h5>
@@ -64,7 +64,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/e.bagourd.png') }} ">
+                                    <img src="{{ asset('image/e.bagourd.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant">
     
                                     <div class="card-body">
                                         <h5 class="name">Eric Bagourd</h5>
@@ -85,7 +85,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/a.leveque.png') }} " >
+                                    <img src="{{ asset('image/a.leveque.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
     
                                     <div class="card-body">
                                         <h5 class="name">Arnaud Lévêque</h5>
@@ -113,7 +113,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/a.duret.png') }} " >
+                                    <img src="{{ asset('image/a.duret.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
     
                                     <div class="card-body">
                                         <h5 class="name">Alain Duret</h5>
@@ -134,7 +134,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/drums.png') }} " >
+                                    <img src="{{ asset('image/drums.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
     
                                     <div class="card-body">
                                         <h5 class="name">Jérôme Lelong</h5>
@@ -155,7 +155,7 @@
                         <div class="card-wrapper">
                             <div class="card">
                                 <div class="face-front z-depth-2">
-                                    <img src="{{ asset('image/saxo.png') }} " >
+                                    <img src="{{ asset('image/saxo.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
     
                                     <div class="card-body">
                                         <h5 class="name">Jean-Michel Cresson</h5>
@@ -184,7 +184,7 @@
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="face-front z-depth-2">
-                            <img src="{{ asset('image/b.druard.png') }} ">
+                            <img src="{{ asset('image/b.druard.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant">
     
                             <div class="card-body">
                                 <h5 class="name">Bruno Druard</h5>
@@ -205,7 +205,7 @@
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="face-front z-depth-2">
-                            <img src="{{ asset('image/p.lefrancois.png') }} " >
+                            <img src="{{ asset('image/p.lefrancois.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
     
                             <div class="card-body">
                                 <h5 class="name">Pierre Lefrançois</h5>
@@ -226,7 +226,7 @@
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="face-front z-depth-2">
-                            <img src="{{ asset('image/bass.png') }} ">
+                            <img src="{{ asset('image/bass.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant">
     
                             <div class="card-body">
                                 <h5 class="name">André Tricoire</h5>
@@ -247,7 +247,7 @@
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="face-front z-depth-2">
-                            <img src="{{ asset('image/p.nivelle.png') }} " >
+                            <img src="{{ asset('image/p.nivelle.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
     
                             <div class="card-body">
                                 <h5 class="name">Patrick Nivelle</h5>
@@ -268,8 +268,8 @@
     
     <footer>
         <div class="icone">
-          <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
-          <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
+          <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank"><img src="{{ asset('image/instagram.png') }}" alt="ecole musique point d'orgue  saumur guitare batterie chant" height="30" width="auto"></a>
+          <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank"><img src="{{ asset('image/facebook.png') }}" alt="ecole musique point d'orgue  saumur guitare batterie chant" height="30" width="auto"></a>
   
         </div>
         <div class="mentions">

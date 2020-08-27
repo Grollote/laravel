@@ -9,11 +9,25 @@ html, body {
   .full-height {
     height: 100vh;
   }
+  .content {
+    text-align: center;
+  }
+  /*header*/
+  .m-b-md {
+    height: 180px;
+    margin-bottom: 30px;
+    background:#9fd0e9;
+    color: black;
+  }
+  .lien_connexion{
+    float: right;
+  }
  .logotype{
     height:80%;
     width:auto;
     margin-top: 2%;
  }
+ /*effet logo*/
  .fadein {
   animation: fadeIn ease 5s;
   -webkit-animation: fadeIn ease 5s;
@@ -45,13 +59,9 @@ html, body {
   0% {opacity:0;}
   100% {opacity:1;}
   }
-  .content {
-    text-align: center;
-  }
-  .title {
-    font-family: 'Faustina', serif;
-    font-size: 84px;
-  }
+ 
+  
+  /*menu*/
   .links > a {
     color: #09b6d4;
     padding: 0 100px;
@@ -63,15 +73,6 @@ html, body {
   }
   a {
     color: #09b6d4;
-  }
-  .m-b-md {
-    height: 180px;
-    margin-bottom: 30px;
-    background:#9fd0e9;
-    color: black;
-  }
-  .lien_connexion{
-    float: right;
   }
   .text-justify{
     margin: 2% 0 3% 5%;
@@ -94,6 +95,7 @@ html, body {
     font-weight: bold;
     color: #4c98be;
   }
+  /*formules*/
   .main-card{
     display: flex;
     margin: 70px;
