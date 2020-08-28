@@ -24,7 +24,7 @@ public function store(Request $request){
             $mail->from($request->email, $request->name);
             $mail->to('admin@example.com')->subject('Contact Message');
         });
-        
-        return redirect()->back()->with('flash_message'. 'Merci pour votre message');
+
+        return redirect()->back()->with('flash_message', 'Merci pour votre message');
     }
 }
