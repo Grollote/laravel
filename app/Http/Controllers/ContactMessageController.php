@@ -3,15 +3,19 @@
 namespace App\Http\Controllers;
 
 use Mail;
+use App\User;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
 class ContactMessageController extends Controller
 {
-    public function create(){
+    public function create()
+    {
         return view ('contact');
     }
 
-public function store(Request $request){
+public function store(Request $request)
+{
     $this->validate($request, [
         'name' => 'required',
         'email' => 'required|email',
@@ -19,12 +23,13 @@ public function store(Request $request){
     ]);
 
     Mail::send('emails.contact-message', [
-        'msg' => $request->message],
+        'msg' => $request->message
+    ],
         function ($mail) use ($request){
             $mail->from($request->email, $request->name);
             $mail->to('admin@example.com')->subject('Contact Message');
         });
         
-        return redirect()->back()->with('flash_message'. 'Merci pour votre message');
+        return redirect()->back()->with('flash_message', 'Merci pour votre message');
     }
 }
