@@ -163,6 +163,9 @@ html, body {
     height: 250px;
     width: auto;
   }
+  .invalid-feedback{
+    display: block;
+  }
   .information{
     font-size: 32px;
   }
@@ -174,11 +177,7 @@ html, body {
     width: 100%;
     resize: none;
 }
-  footer{
-    margin-top: 5%;
-    height: 100px;
-    background: #9fd0e9;
-  }
+
   .form-check-label{
     margin: 0 10px; 
   }
@@ -186,6 +185,7 @@ html, body {
     margin: 5%;
     display: flex;
   }
+  
   .Coordonnées{
     margin: 20% 0 0 180px;
     font-size: 20px;
@@ -333,3 +333,9 @@ font-family: 'Asap', sans-serif;
     font-family: 'Faustina', serif;
 }
 
+/*footer*/
+footer{
+  margin-top: 5%;
+  height: 100px;
+  background: #9fd0e9;
+}

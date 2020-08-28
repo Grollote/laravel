@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+//Auth::routes();//
 
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -39,3 +39,12 @@ Route::get('/mentions', function () {
 Route::get('/connexion', function () {
     return view('connexion');
 });
+
+Route::get('/contact',[
+    'uses' => 'ContactMessageController@create'
+]);
+
+Route::post('/contact',[
+    'uses' => 'ContactMessageController@store',
+    'as' => 'contact.store'
+]);

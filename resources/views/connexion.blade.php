@@ -32,20 +32,33 @@
             </div>
         </div>
         
-    <p>ndjfgvbndvfb</p>
+        <div class="dropdown-menu">
+          <form class="px-4 py-3">
+            <div class="form-group">
+              <label for="exampleDropdownFormEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleDropdownFormPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                <label class="form-check-label" for="dropdownCheck">
+                  Remember me
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">New around here? Sign up</a>
+          <a class="dropdown-item" href="#">Forgot password?</a>
+        </div>
         </div>
         
    
-    <footer>
-        <div class="icone">
-          <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
-          <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
-  
-        </div>
-        <div class="mentions">
-          <a href="mentions"target="_blank"> Mentions Légales</a>
-        </div>
-  
-      </footer>
+   
   </body>
   </html>

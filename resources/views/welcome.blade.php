@@ -157,6 +157,8 @@
     echo $stock;
   @endphp  
     
+
+  
     </div>
     <textarea placeholder="Ecrivez votre message">
     </textarea>
