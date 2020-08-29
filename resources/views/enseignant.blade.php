@@ -28,23 +28,21 @@
                 <a href="/#flip-card">Formules</a>
                 <a href="/#information">Contact</a>
             </div>
-          </div>
+        </div>
     
           
     
-          <body>
-            <h4>Présentation des professeurs</h4>
+
+    <h4>Présentation des professeurs</h4>
     
         
             <div class="container mt-5">
                 <div class="row">
-    
                     <div class="col-md-3 m-4 pl-auto">
                         <div class="card-wrapper">
                             <div class="card">
                                 <div class="face-front z-depth-2">
                                     <img src="{{ asset('image/a.blandin.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
-    
                                     <div class="card-body">
                                         <h5 class="name">Agnès Blandin</h5>
                                         <p class="texte">Violon </p>
@@ -53,7 +51,7 @@
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>Plus d'informations à venir</p>
+                                    <p>Plus d'informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +63,6 @@
                             <div class="card">
                                 <div class="face-front z-depth-2">
                                     <img src="{{ asset('image/e.bagourd.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant">
-    
                                     <div class="card-body">
                                         <h5 class="name">Eric Bagourd</h5>
                                         <p class="texte">Piano</p>
@@ -74,7 +71,7 @@
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>Plus d'informations à venir</p>
+                                    <p>Plus d'informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +98,6 @@
                             </div>
                         </div>
                     </div>
-    
     
                 </div>
             </div>
@@ -205,7 +201,7 @@
                 <div class="card-wrapper">
                     <div class="card">
                         <div class="face-front z-depth-2">
-                            <img src="{{ asset('image/p.lefrancois.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
+                            <img src="{{ asset('image/p.lefrancois.guitare.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
     
                             <div class="card-body">
                                 <h5 class="name">Pierre Lefrançois</h5>

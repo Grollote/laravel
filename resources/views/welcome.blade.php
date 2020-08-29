@@ -11,6 +11,7 @@
 
   <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+ 
 </head>
 <body>
 
@@ -36,7 +37,8 @@
       <h3>PORTES OUVERTES LE 05 SEPTEMBRE 2020, de 14h à 19h.</h3>
       <p class="text-justify actualite">
       </br>
-        <em>"Le Point d'Orgue, l'école qui swing !"</em></br></br>
+        <em>"Le Point d'Orgue, l'école du swing et de la scène!"</em></br></br>
+        Après un changement de direction, Swing School redevient le Point d'Orgue. L'école propose des cours de chant, guitare, basse, batterie, piano, violon, saxophone, trompette, chorale, éveil musical etc.</br>
         L&#039école de musique Le Point d'Orgue vous accueille au 71 rue d'Orléans à Saumur. Vous pouvez vous initier à toutes sortes d'instruments ou au chant. L'école accueille les élèves de tous âges dans une ambiance conviviale. Si vous souhaitez nous rejoindre ou demander de plus amples informations, n'hésitez pas à nous contacter via le formulaire plus bas, par téléphone ou mail.
       </p>
     </div>

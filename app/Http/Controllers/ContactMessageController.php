@@ -29,7 +29,10 @@ public function store(Request $request)
             $mail->from($request->email, $request->name);
             $mail->to('admin@example.com')->subject('Contact Message');
         });
+<<<<<<< HEAD
+=======
         
+>>>>>>> af6655e1e26078ad8a610df0597eb9779422556c
         return redirect()->back()->with('flash_message', 'Merci pour votre message');
     }
 }
