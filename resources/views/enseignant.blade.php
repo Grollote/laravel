@@ -119,7 +119,7 @@
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>Plus d'informations à venir</p>
+                                        <p>Plus d&#039informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -140,7 +140,7 @@
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>Plus d'informations à venir</p>
+                                        <p>Plus d&#039informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -161,7 +161,7 @@
     
                                 <div class="face-back z-depth-2">
                                     <div class="card-body">
-                                        <p>Plus d'informations à venir</p>
+                                        <p>Plus d&#039informations à venir</p>
                                     </div>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@
     
                         <div class="face-back z-depth-2">
                             <div class="card-body">
-                                <p>Plus d'informations à venir</p>
+                                <p>Plus d&#039informations à venir</p>
                             </div>
                         </div>
                     </div>
@@ -211,7 +211,7 @@
     
                         <div class="face-back z-depth-2">
                             <div class="card-body">
-                                <p>Plus d'informations à venir</p>
+                                <p>Plus d&#039informations à venir</p>
                             </div>
                         </div>
                     </div>
@@ -232,7 +232,7 @@
     
                         <div class="face-back z-depth-2">
                             <div class="card-body">
-                                <p>Plus d'informations à venir</p>
+                                <p>Plus d&#039informations à venir</p>
                             </div>
                         </div>
                     </div>
@@ -253,7 +253,7 @@
     
                         <div class="face-back z-depth-2">
                             <div class="card-body">
-                                <p>Plus d'informations à venir</p>
+                                <p>Plus d&#039informations à venir</p>
                             </div>
                         </div>
                     </div>
