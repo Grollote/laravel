@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
   <meta name="description" content="L'école de musique, Le Point d'Orgue, située à Saumur vous propose des cours de guitare, chant, batterie, violon et bien d'autres. Venez apprendre la musique à tout âge !"/>
   <meta name="keywords" content="ecole, musique, saumur, point, orgue"/>
-  <title>Le Point d'Orgue, école de musique</title>
+  <title>Le Point d&#039Orgue, école de musique</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
@@ -52,32 +52,37 @@
 
 
 <h2>contact ici</h2>
-@if (Session::has('flash_message'))
-  <div class="alert alert-success">{{ Session::get('flash_message')}}</div>
-@endif
-<form method="post" action="{{ route('contact.store') }}">
-  {{ csrf_field()}}
-    <div class="form-group">
-        <label>Full name:</label>
-        <input type="text" class="form-control" name="name">
-        @if($errors->has('name'))
-        <small class="form-text invalid-feedback">{{ $errors->first('name') }}</small>
-        @endif
+<div class="row">
+    <div class="col-md-6">
+      @if (Session::has('flash_message'))
+        <div class="alert alert-success">{{ Session::get('flash_message')}}</div>
+      @endif
+      <form method="post" action="{{ route('contact.store') }}">
+        {{ csrf_field()}}
+          <div class="form-group">
+              <label>Full name:</label>
+              <input type="text" class="form-control" name="name">
+              @if($errors->has('name'))
+                <small class="form-text invalid-feedback">{{ $errors->first('name') }}</small>
+              @endif
+          </div>
+          <div class="form-group">
+              <label>email adresse</label>
+              <input type="text" class="form-control" name="email">
+              @if($errors->has('email'))
+                <small class="form-text invalid-feedback">{{ $errors->first('email') }}</small>
+              @endif
+          </div>
+          <div class="form-group">
+              <label>message</label>
+              <textarea name="message" class="form-control"></textarea>
+              @if($errors->has('message'))
+                <small class="form-text invalid-feedback">{{ $errors->first('message') }}</small>
+              @endif
+        </div>
+      </div>
     </div>
-    <div class="form-group">
-        <label>email adresse</label>
-        <input type="text" class="form-control" name="email">
-        @if($errors->has('email'))
-        <small class="form-text invalid-feedback">{{ $errors->first('email') }}</small>
-        @endif
-    </div>
-    <div class="form-group">
-        <label>message</label>
-        <textarea name="message" class="form-control"></textarea>
-        @if($errors->has('message'))
-        <small class="form-text invalid-feedback">{{ $errors->first('message') }}</small>
-        @endif
-    </div>
+
     <button class="btn">Submit</button>
 </form>
   
