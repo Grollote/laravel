@@ -34,7 +34,7 @@
   <div class="fil-actualite">
   
     <div class="actualite">
-      <h3>PORTES OUVERTES LE 05 SEPTEMBRE 2020, de 14h à 19h.</h3>
+      <h3>PORTES OUVERTES LE 5 SEPTEMBRE 2020, de 14h à 19h.</h3>
       <p class="text-justify actualite">
       </br>
         <em>"Le Point d'Orgue, l'école du swing et de la scène!"</em></br></br>
@@ -47,13 +47,13 @@
   </div>
   
   <h2 class="text-justify" id="text-justify">Présentation de l&#039école </h2>
-  <p class="text-justify">L&#039école de musique du Point d'Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
+  <p class="text-justify">L'école de musique du Point d'Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
     De la guitare, au saxophone, en passant par l&#039éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
   </p>
   
   <h2 class="text-justify" id="text-justify">Les cours et formules </h2>
-  <p class="text-justify">Le droit d&#039adhésion à l'année est de 39€ pour un élève / 59€ pour deux élèves du même foyer / 79€ pour plus de trois élèves du même foyer. </br>
-  Le cours à la carte est de 39€ de l&#039heure.
+  <p class="text-justify">Le droit d'adhésion à l'année est de 39€ pour un élève / 59€ pour deux élèves du même foyer / 79€ pour plus de trois élèves du même foyer. </br>
+  Le cours à la carte est de 39€ de l'heure.
   </p>
   @php
   
@@ -100,7 +100,7 @@
   @endphp
   </div>
 
-<p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription.pdf') }}" target="_blank"><img src="{{ asset('image/pdf.png') }}"></a></p>
+<p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription-musique.pdf') }}" target="_blank"><img src="{{ asset('image/pdf.png') }}"></a></p>
   <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement" target="_blank">Cliquez ici !</a></p>
     
 
@@ -177,16 +177,14 @@
   </div>
   </div>
       
-    <footer>
-      <div class="icone">
-        <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
-        <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
-
-      </div>
-      <div class="mentions">
-        <a href="mentions"target="_blank"> Mentions Légales</a>
-      </div>
-
-    </footer>
+  <footer>
+    <div class="icone">
+      <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/instagram.png') }}" height="40" width="auto"></a>
+      <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/facebook-musique.png') }}" height="40" width="auto"></a>
+    </div>
+    <div class="mentions">
+      <a href="mentions"target="_blank"> Mentions Légales</a>
+    </div>
+  </footer>
 </body>
 </html>

@@ -16,18 +16,14 @@
 <body>
 
   <div class="content" id="content">
-
-
     <div class="m-b-md">
-      <a href="#content"><img src="image/point-dorgue.png" class="logotype fadein" alt="ecole musique point d'orgue  saumur guitare batterie chant"></a>
+      <a href="/"><img src="image/point-dorgue.png" class="logotype fadein" alt="ecole musique point d'orgue  saumur guitare batterie chant"></a>
       <a href="connexion"target="_blank" class="lien_connexion">Connexion</a>
-
     </div>
     <div class="links">
-      <a href="#text-justify">Ecole</a>
-      <a href="#flip-card">Formules</a>
-      <a href="#information">Contact</a>
-      
+      <a href="/#text-justify">Ecole</a>
+      <a href="/#flip-card">Formules</a>
+      <a href="/#information">Contact</a>
     </div>
   </div>
 
@@ -39,7 +35,7 @@
                     <div class="card-wrapper">
                         <div class="card-prof">
                             <div class="face-front z-depth-2">
-                                <img src="{{ asset('image/a.duret.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
+                                <img src="{{ asset('image/a.blandin.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
                                 <div class="card-body">
                                     <h5 class="name">Agnès Blandin</h5>
                                     <p class="texte">Violon</p>
@@ -58,7 +54,7 @@
                     <div class="card-wrapper">
                         <div class="card-prof">
                             <div class="face-front z-depth-2">
-                                <img src="{{ asset('image/drums.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
+                                <img src="{{ asset('image/e.bagourd.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
                                 <div class="card-body">
                                     <h5 class="name">Eric Bagourd</h5>
                                     <p class="texte">Piano</p>
@@ -77,7 +73,7 @@
                     <div class="card-wrapper">
                         <div class="card-prof">
                             <div class="face-front z-depth-2">
-                                <img src="{{ asset('image/saxo.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
+                                <img src="{{ asset('image/a.leveque.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
                                     <div class="card-body">
                                     <h5 class="name">Arnaud Lévêque</h5>
                                     <p class="texte">Piano</p>
@@ -184,7 +180,7 @@
                                 <img src="{{ asset('image/p.lefrancois.guitare.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
                                 <div class="card-body">
                                     <h5 class="name">Pierre Lefrançois</h5>
-                                    <p class="texte">Guitare</p>
+                                    <p class="texte">Guitare acoustique / électrique</p>
                                 </div>
                             </div>    
                             <div class="face-back z-depth-2">
@@ -241,23 +237,17 @@
                 </div>
             </div>
         </div>
-    
 
-     
-        
 
-       
-    
-    <footer>
-        <div class="icone">
-          <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank"><img src="{{ asset('image/instagram.png') }}" alt="ecole musique point d'orgue  saumur guitare batterie chant" height="30" width="auto"></a>
-          <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank"><img src="{{ asset('image/facebook.png') }}" alt="ecole musique point d'orgue  saumur guitare batterie chant" height="30" width="auto"></a>
-  
-        </div>
-        <div class="mentions">
-          <a href="mentions"target="_blank"> Mentions Légales</a>
-        </div>
-  
-      </footer>
-  </body>
-  </html>
+                 
+  <footer>
+    <div class="icone">
+      <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/instagram.png') }}" height="40" width="auto"></a>
+      <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/facebook-musique.png') }}" height="40" width="auto"></a>
+    </div>
+    <div class="mentions">
+      <a href="mentions"target="_blank"> Mentions Légales</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -16,21 +16,16 @@
 <body>
 
   <div class="content" id="content">
-
-
     <div class="m-b-md">
-      <a href="#content"><img src="image/point-dorgue.png" class="logotype fadein" alt="ecole musique point d'orgue  saumur guitare batterie chant"></a>
+      <a href="/"><img src="image/point-dorgue.png" class="logotype fadein" alt="ecole musique point d'orgue  saumur guitare batterie chant"></a>
       <a href="connexion"target="_blank" class="lien_connexion">Connexion</a>
-
     </div>
     <div class="links">
-      <a href="#text-justify">Ecole</a>
-      <a href="#flip-card">Formules</a>
-      <a href="#information">Contact</a>
-      
+      <a href="/#text-justify">Ecole</a>
+      <a href="/#flip-card">Formules</a>
+      <a href="/#information">Contact</a>
     </div>
   </div>
-    
 <h4>Mentions Légales</h4>
 
 <p class="text-justify">Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l’économie numérique, il est précisé aux utilisateurs du site NOM SITE ECOLE l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi.
@@ -87,16 +82,16 @@ Le nouveau Règlement Général sur la Protection des Données personnelles (RGP
 Nous contacter : </br>
 Vous pouvez nous contacter directement sur le formulaire de contact.
 </p>
-<footer>
-    <div class="icone">
-      <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank"><img src="{{ asset('image/instagram.png') }}" height="30" width="auto"></a>
-      <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank"><img src="{{ asset('image/facebook.png') }}" height="30" width="auto"></a>
 
+         
+  <footer>
+    <div class="icone">
+      <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/instagram.png') }}" height="40" width="auto"></a>
+      <a href="https://m.facebook.com/Le-point-dorgue-103605468113563/"target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/facebook-musique.png') }}" height="40" width="auto"></a>
     </div>
     <div class="mentions">
       <a href="mentions"target="_blank"> Mentions Légales</a>
     </div>
-
   </footer>
 </body>
 </html>

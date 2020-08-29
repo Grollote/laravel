@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
   <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
-  
   <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+ 
 </head>
 <body>
 
