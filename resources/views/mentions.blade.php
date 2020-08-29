@@ -1,34 +1,35 @@
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <link href="{{ asset('css/bootstrap.css')}}"rel="stylesheet">
-        <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+  <meta name="description" content="L'école de musique, Le Point d'Orgue, située à Saumur vous propose des cours de guitare, chant, batterie, violon et bien d'autres. Venez apprendre la musique à tout âge !"/>
+  <meta name="keywords" content="ecole, musique, saumur, point, orgue"/>
+  <title>Le Point d&#039Orgue, école de musique</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+ 
+</head>
+<body>
 
-        <title>Le Point d'Orgue, école de musique</title>
+  <div class="content" id="content">
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
-        </head>
-    <body>
-    <!--menu-->
-    
-    
-        <div class="menu" id="menu">
-            <div class="m-b-md">
-                <a href="/#content"><img src="image/point-dorgue.png" class="logotype fadein"alt="point d'orgue" height="150" width="auto">
-              <a href="connexion" class="lien_connexion">Connexion</a>
 
-            </div>
-            <div class="links">
-                <a href="/#text-justify">Ecole</a>
-                <a href="/#flip-card">Formules</a>
-                <a href="/#information">Contact</a>
-            </div>
-          </div>
+    <div class="m-b-md">
+      <a href="#content"><img src="image/point-dorgue.png" class="logotype fadein" alt="ecole musique point d'orgue  saumur guitare batterie chant"></a>
+      <a href="connexion"target="_blank" class="lien_connexion">Connexion</a>
+
+    </div>
+    <div class="links">
+      <a href="#text-justify">Ecole</a>
+      <a href="#flip-card">Formules</a>
+      <a href="#information">Contact</a>
+      
+    </div>
+  </div>
     
 <h4>Mentions Légales</h4>
 
