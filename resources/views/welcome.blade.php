@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
   <meta name="description" content="L'école de musique, Le Point d'Orgue, située à Saumur vous propose des cours de guitare, chant, batterie, violon et bien d'autres. Venez apprendre la musique à tout âge !"/>
   <meta name="keywords" content="ecole, musique, saumur, point, orgue"/>
-  <title>Le Point d'Orgue, école de musique</title>
+  <title>Le Point d&#039Orgue, école de musique</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Asap&family=Faustina:wght@600&family=Kalam:wght@300&display=swap" rel="stylesheet">
 
@@ -37,7 +37,8 @@
       <h3>PORTES OUVERTES LE 05 SEPTEMBRE 2020, de 14h à 19h.</h3>
       <p class="text-justify actualite">
       </br>
-        <em>"Le Point d'Orgue, l'école qui swing !"</em></br></br>
+        <em>"Le Point d'Orgue, l'école du swing et de la scène!"</em></br></br>
+        Après un changement de direction, Swing School redevient le Point d'Orgue. L'école propose des cours de chant, guitare, basse, batterie, piano, violon, saxophone, trompette, chorale, éveil musical etc.</br>
         L&#039école de musique Le Point d'Orgue vous accueille au 71 rue d'Orléans à Saumur. Vous pouvez vous initier à toutes sortes d'instruments ou au chant. L'école accueille les élèves de tous âges dans une ambiance conviviale. Si vous souhaitez nous rejoindre ou demander de plus amples informations, n'hésitez pas à nous contacter via le formulaire plus bas, par téléphone ou mail.
       </p>
     </div>
@@ -45,9 +46,9 @@
     <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FLe-point-dorgue-103605468113563%2F&tabs=timeline&width=250&height=350&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"width="250" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
   </div>
   
-  <h2 class="text-justify" id="text-justify">Présentation de l'école </h2>
-  <p class="text-justify">L'école de musique du Point d'Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
-    De la guitare, au saxophone, en passant par l'éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
+  <h2 class="text-justify" id="text-justify">Présentation de l&#039école </h2>
+  <p class="text-justify">L&#039école de musique du Point d'Orgue, a été créée en 1978 par M. Gouin. Elle propose l'enseignement d'une dizaine de disciplines, en solo, binôme ou groupe.
+    De la guitare, au saxophone, en passant par l&#039éveil musical et la batterie, petits et grands se retrouvent autour de la musique dans une ambiance décontractée. L'année est ponctuée d'évènements, comme le concert de l'école ou la participation à la Fête de la musique. Portée par une équipe de professeurs impliqués, l'école de musique Le Point d'Orgue vous permettra de révéler vos talents.<a href="enseignant" target="_blank"> Découvrez ici l'ensemble de nos professeurs</a>
   </p>
   
   <h2 class="text-justify" id="text-justify">Les cours et formules </h2>
@@ -166,7 +167,7 @@
     <button>Envoyer</button>
   </form>
   <div class="main-coordonnees">
-    <p class="Titre-coordonnées">Coordonnées de l'école</p>
+    <p class="Titre-coordonnées">Coordonnées de l&#039école</p>
     <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
     <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
     <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>
