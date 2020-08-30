@@ -134,6 +134,8 @@
                   <small class="form-text invalid-feedback">{{ $errors->first('message') }}</small>
                 @endif
             </div>
+            <p class="rgpd">En soumettant ce formulaire, j'accepte que mes informations soient utilisées dans le cadre de ma demande et de la relation commerciale qui peut en découler. Pour en savoir davantage, consultez notre page  <a href="mentions" target="_blank">Mentions légales.</a>
+            </p>
             <button class="btn btn-info">Envoyer</button>
         </form>
     
