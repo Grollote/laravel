@@ -263,6 +263,7 @@ html, body {
     }
     .main-coordonnees{
       width: 70%;
+      background-color: red;
     }
   }
 
@@ -349,3 +350,27 @@ footer{
   background: #9fd0e9;
 }
 
+/*contact*/
+.rens-contact{
+  display: flex;
+}
+.formulaire-rens {
+  width: 40%;
+  height: 30%;
+  margin-left:5%;
+}
+.btn{
+  margin-left:3%;
+}
+.main-coordonnees{
+  width: 40%;
+  margin: 0 0 0 10%;
+  float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .form-group, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

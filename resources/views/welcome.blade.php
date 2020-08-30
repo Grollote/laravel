@@ -102,81 +102,55 @@
 
 <p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription-musique.pdf') }}" target="_blank"><img src="{{ asset('image/pdf.png') }}"></a></p>
   <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement" target="_blank">Cliquez ici !</a></p>
-    
-
-  <div class="main-renseignement">
-  <form class="main">
-    <p class="information" id="information">Renseignement / Pré-inscription</p>
-    <div class="form-row">
-
-      <div class="form-group col-md-6">
-      <label>Nom</label>
-
-        <input class="form-control" placeholder="Entrez votre nom">
-      </div>
-
-      <div class="form-group col-md-6">
-      <label>Prenom</label>
-
-        <input class="form-control"placeholder="Entrez votre prénom">
-      </div>
-    </div>
-
-    <div class="form-group" id="form-group">
-    <label>Addresse mail</label>
-
-      <input class="form-control" placeholder="exemple@gmailcom">
-    </div>
-
-    <div class="form-group">
-    <label for="inputAddress2">Numéro de téléphone</label>
-
-      <input class="form-control" placeholder="02.00.00.00.00">
-    </div>
-    @php
-    $name=[ "Piano", 
-            "Chant",
-            "Violon",
-            "Eveil musical",
-            "Guitare acoustique",
-            "Guitare électrique",
-            "Batterie",
-            "Basse électrique",
-            "Synthétiseur",
-            "Saxophone",
-            "Chorale ",
-           
-    ];
-    $stock = "<div class=\"main-form\">";
-    
-    for ($i = 0; $i < 11; $i++) {
-        $stock .= "<div class=\"form-group\"><div class=\"form-check\"><input class=\"form-check-input\" type=\"checkbox\" id=\"gridCheck\"><label class=\"form-check-label\" for=\"gridCheck\">";
-        $stock .= $name[$i]."</label></div></div>";
-        if ($i == 2 || $i== 5) {
-            $stock .= "</div><div class=\"main-form\">";
-        }
-    }  
-    echo $stock;
-  @endphp  
-    
-
   
+
+  <div class="rens-contact">
+      <div class="formulaire-rens">  
+      <div class="col-md-6">
+        @if (Session::has('flash_message'))
+          <div class="alert alert-success">{{ Session::get('flash_message')}}</div>
+        @endif
+        <form method="post" action="{{ route('contact.store') }}">
+          <h2 class="text-justify" id="text-justify">Renseignements </h2>
+          {{ csrf_field()}}
+            <div class="form-group col-60">
+                <label>Nom et Prénom</label>
+                <input type="text" class="form-control" name="name">
+                @if($errors->has('name'))
+                  <small class="form-text invalid-feedback">{{ $errors->first('name') }}</small>
+                @endif
+            </div>
+            <div class="form-group col-60">
+                <label>Adresse mail</label>
+                <input type="text" class="form-control" name="email">
+                @if($errors->has('email'))
+                  <small class="form-text invalid-feedback">{{ $errors->first('email') }}</small>
+                @endif
+            </div>
+            <div class="form-group col-60">
+                <label>Votre message <em><p style="font-size:12px">Merci de préciser quel(s) cours vous intéresse(nt)</p></em></label>
+                <textarea name="message" class="form-control"></textarea>
+                @if($errors->has('message'))
+                  <small class="form-text invalid-feedback">{{ $errors->first('message') }}</small>
+                @endif
+            </div>
+            <button class="btn btn-info">Envoyer</button>
+        </form>
+    
+      </div>
     </div>
-    <textarea placeholder="Ecrivez votre message">
-    </textarea>
-    <button>Envoyer</button>
-  </form>
-  <div class="main-coordonnees">
-    <p class="Titre-coordonnées">Coordonnées de l&#039école</p>
-    <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
-    <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
-    <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>
-    <div class="map-responsive">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.867472414942!2d-0.08187138418808754!3d47.25829471996658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4807f72ca0fa9e1d%3A0x22a7b200426828a7!2s71%20Rue%20d&#39;Orl%C3%A9ans%2C%2049400%20Saumur!5e0!3m2!1sfr!2sfr!4v1595847498235!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <div class="main-coordonnees" id="information">
+      <p class="Titre-coordonnées">Coordonnées de l&#039école</p>
+      <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
+      <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
+      <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>
+      <div class="map-responsive">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.867472414942!2d-0.08187138418808754!3d47.25829471996658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4807f72ca0fa9e1d%3A0x22a7b200426828a7!2s71%20Rue%20d&#39;Orl%C3%A9ans%2C%2049400%20Saumur!5e0!3m2!1sfr!2sfr!4v1595847498235!5m2!1sfr!2sfr" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
     </div>
   </div>
-  </div>
-      
+
   <footer>
     <div class="icone">
       <a href="https://instagram.com/le_point_d_orgue_saumur?igshid=14jjqhkte8284" target="_blank" alt="ecole musique point d'orgue  saumur guitare batterie chant"><img src="{{ asset('image/instagram.png') }}" height="40" width="auto"></a>

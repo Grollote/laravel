@@ -59,21 +59,21 @@
       @endif
       <form method="post" action="{{ route('contact.store') }}">
         {{ csrf_field()}}
-          <div class="form-group">
+          <div class="form-group col-md-5">
               <label>Full name:</label>
               <input type="text" class="form-control" name="name">
               @if($errors->has('name'))
                 <small class="form-text invalid-feedback">{{ $errors->first('name') }}</small>
               @endif
           </div>
-          <div class="form-group">
+          <div class="form-group col-md-5">
               <label>email adresse</label>
               <input type="text" class="form-control" name="email">
               @if($errors->has('email'))
                 <small class="form-text invalid-feedback">{{ $errors->first('email') }}</small>
               @endif
           </div>
-          <div class="form-group">
+          <div class="form-group col-md-6">
               <label>message</label>
               <textarea name="message" class="form-control"></textarea>
               @if($errors->has('message'))
@@ -83,9 +83,19 @@
       </div>
     </div>
 
-    <button class="btn">Submit</button>
+    <button class="btn btn-info">Submit</button>
 </form>
   
+</div>
+<div class="main-coordonnees">
+  <p class="Titre-coordonnées">Coordonnées de l&#039école</p>
+  <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
+  <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
+  <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>
+  <div class="map-responsive">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2707.867472414942!2d-0.08187138418808754!3d47.25829471996658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4807f72ca0fa9e1d%3A0x22a7b200426828a7!2s71%20Rue%20d&#39;Orl%C3%A9ans%2C%2049400%20Saumur!5e0!3m2!1sfr!2sfr!4v1595847498235!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+</div>
 </div>
 </body>
 </html>

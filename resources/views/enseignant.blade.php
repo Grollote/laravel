@@ -185,8 +185,8 @@
                             </div>    
                             <div class="face-back z-depth-2">
                                 <div class="card-body">
-                                    <p>Je vous propose des cours pour tout age / niveau, tout style (variété française et internationale, musique actuelle, folk, reggae, rock, blues,...),dans une ambiance détendue et ludique. Nous définirons ensemble votre objectif afin de répondre au mieux à vos attentes. Je travaille sur des morceaux choisis avec les élèves pour vous donner encore plus envie d’avancer et de prendre votre guitare.
-                                    Possibilité de travailler sur tablature et/ou solfège, nous pourrons travailler les rythmes et arpèges, travail du médiator et des doigts, travail de l’harmonie, étude de morceaux, gammes, solo, improvisation, ...
+                                    <p>Je vous propose des cours pour tout âge/niveau/style (variété française et internationale, folk, reggae, rock, blues,...) dans une ambiance détendue et ludique. Nous définirons ensemble votre objectif afin de répondre au mieux à vos attentes.</br></br> Je travaille sur des morceaux choisis avec les élèves pour vous donner encore plus envie d’avancer et de prendre votre guitare.</br></br>
+                                    Possibilité d'exercer sur tablature et/ou solfège, nous pourrons travailler les rythmes et arpèges, travail du médiator et des doigts, apprentissage de l’harmonie, étude de morceaux, gammes, solo, improvisation, ...</br></br>
                                     N’hésitez plus et à vos guitares !</p>
                                 </div>
                             </div>
