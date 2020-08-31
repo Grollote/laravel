@@ -219,18 +219,19 @@
   
   <div class="rens-contact">
   <div class="form-rens">
+    <div class="container">
     <h2 class="text-justify" id="text-justify">Demande de renseignements </h2>
-  <FORM METHOD=POST ENCTYPE="text/plain" ACTION="mailto:grolleau.anlizrana@laposte.net"> 
+  <FORM METHOD=POST ENCTYPE="text/plain" ACTION="mailto:pointdorguesaumur@gmail.com"> 
    
-    <p class="section-form">Nom :</p><input class="form-group" type="text" name="nom" size="25" required>
-    <p class="section-form">Prénom :</p><input class="form-group" type="text" name="prenom" size="25" required>
+    <p class="section-form">Nom :</p><input class="form-group" type="text" name="nom" size="30" required>
+    <p class="section-form">Prénom :</p><input class="form-group" type="text" name="prenom" size="30" required>
     <p class="section-form">Adresse mail :</p><input class="form-group" type="email" name="mail"  required>
     <p class="section-form">Numéro de téléphone :</p><input class="form-group" type="tel" name="telephone"  required>
     <p class="section-form">Cours qui vous intéresse(nt) :<p>
         <p class="checkbox-cours"><input class="form-group" type="checkbox" name="cours" value="guitare">  guitare
         <input class="form-group" type="checkbox" name="cours" value="basse electrique">  basse électrique
        <input class="form-group" type="checkbox" name="cours" value="violon">  violon
-       <input class="form-group" type="checkbox" name="cours" value="batterie">  batterie</br>
+       <input class="form-group" type="checkbox" name="cours" value="batterie">  batterie
        <input class="form-group" type="checkbox" name="cours" value="piano">  piano
        <input class="form-group" type="checkbox" name="cours" value="saxophone">  saxophone
        <input class="form-group" type="checkbox" name="cours" value="trompette">  trompette</br>
@@ -243,6 +244,7 @@
     <input class="btn btn-info" type="submit" value="envoyer">
     
     </FORM>
+    </div>
 </div>
 
     <div class="main-coordonnees" id="information">

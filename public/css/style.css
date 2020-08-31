@@ -159,9 +159,7 @@ html, body {
     height: 15em;
     width: auto;
   }
-  .invalid-feedback{
-    display: block;
-  }
+ 
   .information{
     font-size: 32px;
   }
@@ -244,10 +242,7 @@ html, body {
     .fil-actualite iframe{
       margin: 0 0 0 25%;
     }
-    .main-coordonnees{
-      width: 70%;
-      
-    }
+    
   }
 
   /*page enseignant */
@@ -338,16 +333,17 @@ footer{
 /*contact*/
 .rens-contact{
   display: flex;
+  height: auto;
+  margin-left:5%.
 }
 .form-rens {
   width: 50%;
-  height: 30%;
-  margin-left:3%;
+  margin-left:6%;
   float: left;
 }
 
 @media screen and (max-width: 600px) {
-  .form-group, input[type=submit] {
+  .form-group,.section-form, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
