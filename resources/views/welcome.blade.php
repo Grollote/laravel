@@ -217,47 +217,47 @@
 <p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription-musique.pdf') }}" target="_blank"><img src="{{ asset('image/pdf.png') }}"></a></p>
   <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement" target="_blank">Cliquez ici !</a></p>
   
-
   <div class="rens-contact">
-      <div class="formulaire-rens">  
-      <div class="col-md-6">
-        @if (Session::has('flash_message'))
-          <div class="alert alert-success">{{ Session::get('flash_message')}}</div>
-        @endif
-        <form method="post" action="{{ route('contact.store') }}">
-          <h2 class="text-justify" id="text-justify">Renseignements </h2>
-          {{ csrf_field()}}
-            <div class="form-group col-60">
-                <label>Nom et Prénom</label>
-                <input type="text" class="form-control" name="name">
-                @if($errors->has('name'))
-                  <small class="form-text invalid-feedback">{{ $errors->first('name') }}</small>
-                @endif
-            </div>
-            <div class="form-group col-60">
-                <label>Adresse mail</label>
-                <input type="text" class="form-control" name="email">
-                @if($errors->has('email'))
-                  <small class="form-text invalid-feedback">{{ $errors->first('email') }}</small>
-                @endif
-            </div>
-            <div class="form-group col-60">
-                <label>Votre message <em><p style="font-size:12px">Merci de préciser quel(s) cours vous intéresse(nt)</p></em></label>
-                <textarea name="message" class="form-control"></textarea>
-                @if($errors->has('message'))
-                  <small class="form-text invalid-feedback">{{ $errors->first('message') }}</small>
-                @endif
-            </div>
-            <p class="rgpd">En soumettant ce formulaire, j'accepte que mes informations soient utilisées dans le cadre de ma demande et de la relation commerciale qui peut en découler. Pour en savoir davantage, consultez notre page  <a href="mentions" target="_blank">Mentions légales.</a>
-            </p>
-            <button class="btn btn-info">Envoyer</button>
-        </form>
-    
-      </div>
+    <div class="formulaire-rens">  
+    <div class="col-md-6">
+      @if (Session::has('flash_message'))
+        <div class="alert alert-success">{{ Session::get('flash_message')}}</div>
+      @endif
+      <form method="post" action="{{ route('contact.store') }}">
+        <h2 class="text-justify" id="text-justify">Renseignements </h2>
+        {{ csrf_field()}}
+          <div class="form-group col-60">
+              <label>Nom et Prénom</label>
+              <input type="text" class="form-control" name="name">
+              @if($errors->has('name'))
+                <small class="form-text invalid-feedback">{{ $errors->first('name') }}</small>
+              @endif
+          </div>
+          <div class="form-group col-60">
+              <label>Adresse mail</label>
+              <input type="text" class="form-control" name="email">
+              @if($errors->has('email'))
+                <small class="form-text invalid-feedback">{{ $errors->first('email') }}</small>
+              @endif
+          </div>
+          <div class="form-group col-60">
+              <label>Votre message <em><p style="font-size:12px">Merci de préciser quel(s) cours vous intéresse(nt)</p></em></label>
+              <textarea name="message" class="form-control"></textarea>
+              @if($errors->has('message'))
+                <small class="form-text invalid-feedback">{{ $errors->first('message') }}</small>
+              @endif
+          </div>
+          <p class="rgpd">En soumettant ce formulaire, j'accepte que mes informations soient utilisées dans le cadre de ma demande et de la relation commerciale qui peut en découler. Pour en savoir davantage, consultez notre page  <a href="mentions" target="_blank">Mentions légales.</a>
+          </p>
+          <button class="btn btn-info">Envoyer</button>
+      </form>
+  
     </div>
+  </div>
+    
 
     <div class="main-coordonnees" id="information">
-      <p class="Titre-coordonnées">Coordonnées de l&#039école</p>
+      <h2 class="text-justify" id="text-justify">Coordonnées de l'école </h2>
       <p class="text-justify"><img src="{{ asset('image/map.png') }}" height="30" width="auto"> 71 Rue d Orleans 49400 Saumur</p>
       <p class="text-justify"><img src="{{ asset('image/mail.png') }}" height="30" width="auto">pointdorguesaumur@gmail.com</p>
       <p class="text-justify"><img src="{{ asset('image/phone.png') }}" height="30" width="auto">02.41.51.98.26</p>

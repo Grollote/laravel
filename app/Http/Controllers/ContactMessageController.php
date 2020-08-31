@@ -27,7 +27,7 @@ public function store(Request $request)
     ],
         function ($mail) use ($request){
             $mail->from($request->email, $request->name);
-            $mail->to('pointdorguesaumur@gmail.com')->subject('Contact Message');
+            $mail->to('grolleau.annelise@gmail.com')->subject('Contact Message');
         });
         return redirect()->back()->with('flash_message', 'Merci pour votre message');
     }
