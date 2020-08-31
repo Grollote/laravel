@@ -251,7 +251,7 @@ html, body {
     font-family: 'Asap', sans-serif;
   }
   .container-card{
-  
+
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -278,11 +278,11 @@ html, body {
    width: 100%;
    height: 100%; 
    background-color:#fff;
+   backface-visibility: hidden;
    color: black;
 }
 
 .face-back{
-  backface-visibility: hidden;
     transform: rotateX(180deg);
 }
 .card-wrapper:hover .face-front {
