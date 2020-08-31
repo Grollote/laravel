@@ -20,8 +20,6 @@
 
     <div class="m-b-md">
       <a href="#content"><img src="image/point-dorgue.png" class="logotype fadein" alt="ecole musique point d'orgue  saumur guitare batterie chant"></a>
-      <a href="connexion"target="_blank" class="lien_connexion">Connexion</a>
-
     </div>
     <div class="links">
       <a href="#text-justify">Ecole</a>
@@ -55,50 +53,166 @@
   <p class="text-justify">Le droit d'adhésion à l'année est de 39€ pour un élève / 59€ pour deux élèves du même foyer / 79€ pour plus de trois élèves du même foyer. </br>
   Le cours à la carte est de 39€ de l'heure.
   </p>
-  @php
-  
-    $alt=[ "FORMULE DES COURS PARTICULIERS", 
-            "FORMULE DES COURS A DEUX",
-            "CHANT A DEUX (ados)",
-            "CHORALE ENFANTS (11 à 13 ans)",
-            "CHORALE ENFANTS (9 à 10 ans)",
-            "CHORALE ENFANTS (7 à 8 ans)",
-            "CHORALE ADULTES",
-            "EVEIL MUSICAL (5 à 7 ans)"
-    ];
-    $alt2=[ "</br>550€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 55€ par mois pour 1/2h de cours par semaine, durant 33 semaines. (toutes disciplines)", 
-            "</br>480€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 48€ par mois pour 1/2h de cours par semaine, durant 33 semaines (guitare, batterie, piano).",
-            "</br>440€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 44€ par mois pour 1/2h de cours par semaine, durant 33 semaines.",
-            "</br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 14h à 14h45.</br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)",
-            "</br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 14h45 à 15h30.</br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)",
-            "</br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 15h30 à 16h15. </br>Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)",
-            "</br>280€ </br><em>formule annuelle</em></br></br> Le lundi de 20h à 21h et le mardi de 19h à 20h. </br> Réglable en 10 mensualités de 28€ par mois </br>pour 1h de cours par semaine, durant 33 semaines. ",
-            "</br>180€ </br> <em>formule annuelle</em></br></br>Le mercredi (horaires à définir). </br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines."
-    ];
-    $image=["/image/musique-solo.png",
-    "/image/musique-duo.png",
-    "/image/musique-ado2.png",
-    "/image/musique-ado.png",
-    "/image/musique-chorale.png",
-    "/image/musique-enfant.png",
-    "/image/musique-chorale-adulte.png",
-    "/image/groupe.png",
-    ];
-    $stock = "<div class=\"main-card\">";
-    
+ 
+  <div class="container-card-form mt-5">
+    <div class="row">
+        <div class="col-md-3 m-4 pl-auto">
+            <div class="card-wrapper-form">
+                <div class="card-form">
+                    <div class="face-front-form z-depth-2">
+                        <img src="{{ asset('image/musique-solo.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
+                        <div class="card-body">
+                            <h5 class="name-form">FORMULE DES COURS PARTICULIERS</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="face-back-form z-depth-2">
+                        <div class="card-body">
+                            <p></br></br>550€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 55€ par mois pour 1/2h de cours par semaine, durant 33 semaines. (toutes disciplines)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      for ($i = 0; $i < 8; $i++) {
-          $stock .= "<div class=\"flip-card\" id=\"flip-card\"><div class=\"flip-card-inner\"><div class=\"flip-card-front\"><img src=\"";
-          $stock .= $image[$i]."\"><p>";
-          $stock .= $alt[$i]."</p></div> <div class=\"flip-card-back\"><p>";
-          $stock .= $alt2[$i]."</p></div></div></div>";
-          if ($i == 2 || $i== 5) {
-              $stock .= "</div><div class=\"main-card\">";
-          }
-      }
-    echo $stock;
-  @endphp
-  </div>
+        <div class="col-md-3 m-4 pl-auto">
+            <div class="card-wrapper-form">
+                <div class="card-form">
+                    <div class="face-front-form z-depth-2">
+                        <img src="{{ asset('image/musique-duo.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
+                        <div class="card-body">
+                            <h5 class="name-form">FORMULE DES COURS A DEUX</h5>
+                        </div>
+                    </div>
+                    <div class="face-back-form z-depth-2">
+                        <div class="card-body">
+                            <p></br></br>480€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 48€ par mois pour 1/2h de cours par semaine, durant 33 semaines (guitare, batterie, piano).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 m-4 pl-auto">
+            <div class="card-wrapper-form">
+                <div class="card-form">
+                    <div class="face-front-form z-depth-2">
+                        <img src="{{ asset('image/musique-ado2.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
+                            <div class="card-body">
+                            <h5 class="name-form">CHANT A DEUX (ados)</h5>
+                            </div>
+                    </div>
+                    <div class="face-back-form z-depth-2">
+                        <div class="card-body">
+                            <p></br></br>440€ </br><em>formule annuelle</em></br></br> Réglable en 10 mensualités de 44€ par mois pour 1/2h de cours par semaine, durant 33 semaines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-card-form mt-5">
+    <div class="row">
+            <div class="col-md-3 m-4 pl-auto">
+                <div class="card-wrapper-form">
+                    <div class="card-form">
+                        <div class="face-front-form z-depth-2">
+                            <img src="{{ asset('image/musique-ado.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
+                            <div class="card-body">
+                                <h5 class="name-form">CHORALE ENFANTS (11 à 13 ans)</h5>
+                            </div>
+                        </div>
+                        <div class="face-back-form z-depth-2">
+                            <div class="card-body">
+                                <p></br></br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 14h à 14h45.</br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="col-md-3 m-4 pl-auto">
+            <div class="card-wrapper-form">
+                <div class="card-form">
+                    <div class="face-front-form z-depth-2">
+                        <img src="{{ asset('image/musique-chorale.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
+                        <div class="card-body">
+                            <h5 class="name-form">CHORALE ENFANTS (9 à 10 ans)</h5>
+                        </div>
+                    </div>
+                    <div class="face-back-form z-depth-2">
+                        <div class="card-body">
+                            <p></br></br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 14h45 à 15h30.</br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 m-4 pl-auto">
+            <div class="card-wrapper-form">
+                <div class="card-form">
+                    <div class="face-front-form z-depth-2">
+                        <img src="{{ asset('image/musique-enfant.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
+                            <div class="card-body">
+                            <h5 class="name-form">CHORALE ENFANTS (7 à 8 ans)</h5>
+                            </div>
+                    </div>
+                    <div class="face-back-form z-depth-2">
+                        <div class="card-body">
+                            <p></br></br>180€ </br><em>formule annuelle</em></br></br> Le mercredi de 15h30 à 16h15. </br>Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-card-form mt-5">
+    <div class="row">
+        <div class="col-md-3 m-4 pl-auto">
+            <div class="card-wrapper-form">
+                <div class="card-form">
+                    <div class="face-front-form z-depth-2">
+                        <img src="{{ asset('image/musique-chorale-adulte.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant">
+                        <div class="card-body">
+                            <h5 class="name-form">CHORALE ADULTE</h5>
+                        </div>
+                    </div>
+                    <div class="face-back-form z-depth-2">
+                        <div class="card-body">
+                        <p></br></br>280€ </br><em>formule annuelle</em></br></br> Le lundi de 20h à 21h et le mardi de 19h à 20h. </br> Réglable en 10 mensualités de 28€ par mois </br>pour 1h de cours par semaine, durant 33 semaines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    
+        <div class="col-md-3 m-4 pl-auto">
+            <div class="card-wrapper-form">
+                <div class="card-form">
+                    <div class="face-front-form z-depth-2">
+                        <img src="{{ asset('image/groupe.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
+                        <div class="card-body">
+                            <h5 class="name-form">EVEIL MUSICAL (5 à 7 ans)</h5>
+                        </div>
+                    </div>    
+                    <div class="face-back-form z-depth-2">
+                        <div class="card-body">
+                            <p></br></br>180€ </br> <em>formule annuelle</em></br></br>Le mercredi (horaires à définir). </br> Réglable en 10 mensualités de 18€ par mois pour 3/4h de cours par semaine, durant 33 semaines.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+</div>
 
 <p class="text-justify">Pour vous inscrire : <a href="{{ asset('bulletin-inscription-musique.pdf') }}" target="_blank"><img src="{{ asset('image/pdf.png') }}"></a></p>
   <p class="text-justify">Pour consulter le règlement intérieur : <a href="reglement" target="_blank">Cliquez ici !</a></p>

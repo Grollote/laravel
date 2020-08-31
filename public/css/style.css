@@ -27,6 +27,8 @@ html, body {
     height:80%;
     width:auto;
     margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
  }
  /*effet logo*/
  .fadein {
@@ -97,56 +99,54 @@ html, body {
     color: #4c98be;
   }
   /*formules*/
-  .main-card{
-    display: flex;
-    margin: 70px;
-  }
-  .flip-card {
-    width: 300px;
-    height: 200px;  
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-    margin-left: 120px;
-    margin-bottom: 30px;
-    
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+  .container-card-form{
 
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-    background:#4c98be;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    color:#636b6f;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    font-size: 14px;
-    color: white;
-    transform: rotateY(180deg);
-  }
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: small;
+}
+  .card-wrapper-form{
+    height:250px;
+    width:300px;
+    perspective: 1000px;
+}
+
+.card-form{
+ position: relative;
+    width:100%;
+    height:100%;
+    text-align:center;
+    transition:transform 0.8s;
+    box-shadow: 1px 1px 12px #555;
+}
+
+
+.face-front-form, .face-back-form{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   backface-visibility: hidden;
+   background-color:#fff;
+   color: black;
+}
+
+.face-back-form{
+    transform: rotateX(180deg);
+}
+.card-wrapper-form:hover .face-front-form{
+  transform:rotateX(180deg);
+}
+.card-wrapper-form:hover .face-back-form{
+  transform:rotateX(3600deg);
+}
+.name-form{
+    font-family: 'Asap', sans-serif;
+    color:rgb(126, 126, 126);
+    font-size:14px;
+    
+}
 
   /*FORMULAIRE*/
   .main-form{
@@ -161,7 +161,7 @@ html, body {
     margin: 0 0 0 10%;
   }
   .main >img {
-    height: 250px;
+    height: 15em;
     width: auto;
   }
   .invalid-feedback{
@@ -264,7 +264,7 @@ html, body {
     }
     .main-coordonnees{
       width: 70%;
-      background-color: red;
+      
     }
   }
 
@@ -293,12 +293,7 @@ html, body {
     height:100%;
     text-align:center;
     transition:transform 0.8s;
-    transform-style: preserve-3d;
     box-shadow: 1px 1px 12px #555;
-}
-.card-wrapper:hover .card-prof {
-    transform: rotateY(180deg);
-    transition: 1s;
 }
 
 .face-front, .face-back{
@@ -306,11 +301,18 @@ html, body {
    width: 100%;
    height: 100%; 
    background-color:#fff;
+   backface-visibility: hidden;
    color: black;
 }
 
 .face-back{
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
+}
+.card-wrapper:hover .face-front {
+  transform: rotateX(180deg);
+}
+.card-wrapper:hover .face-back {
+  transform: rotateX(360deg);
 }
 
 .name{

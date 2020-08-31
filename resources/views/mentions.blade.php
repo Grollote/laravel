@@ -18,7 +18,6 @@
   <div class="content" id="content">
     <div class="m-b-md">
       <a href="/"><img src="image/point-dorgue.png" class="logotype fadein" alt="ecole musique point d'orgue  saumur guitare batterie chant"></a>
-      <a href="connexion"target="_blank" class="lien_connexion">Connexion</a>
     </div>
     <div class="links">
       <a href="/#text-justify">Ecole</a>
@@ -31,7 +30,7 @@
 <p class="text-justify">Conformément aux dispositions de la loi n° 2004-575 du 21 juin 2004 pour la confiance en l’économie numérique, il est précisé aux utilisateurs du site <strong>lepointdorgue-saumur.fr </strong>l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi.
 </br>
 </br>
-Édition du site
+Édition du site </br>
 Ce site internet, ayant un but informatif et de services, est la propriété exclusive de :
 </br>
 </br>
@@ -56,7 +55,6 @@ Toute copie, reproduction, représentation, adaptation, diffusion, intégrale ou
 Les informations contenues dans ce site sont présentes à titre purement informatif et sont non contractuelles. L’école de musique le Point d'Orgue ne saurait être tenue responsable pour toute erreur ou omission dans les textes et illustrations du site. Les informations peuvent faire l’objet de modifications sans préavis.
 </br>
 Néanmoins, par principe sont autorisés, sans accord express préalable :
-</br>
 </br>
 la citation, respectant le droit moral de l’auteur par l’indication de son nom et de la source. La multiplication des citations est considérée comme une œuvre dérivée, et donc soumise à l’accord préalable de l’auteur ou de l’ayant droit ;
 la création d’un lien, à la condition impérative que ce lien ouvre une nouvelle fenêtre du navigateur et que la page atteinte par le lien ne soit pas imbriquée à l’intérieur d’autres pages, en particulier par voie de cadres (ou « frames »), appartenant au site appelant et que cette ou ces page(s) apparaisse(nt) dans une page entière sous l’URL «lepointdorgue-saumur.fr ».
