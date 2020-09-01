@@ -21,7 +21,7 @@
     </div>
     <div class="links">
       <a href="/#text-justify">Ecole</a>
-      <a href="/#flip-card">Formules</a>
+      <a href="#card-form">Formules</a>
       <a href="/#information">Contact</a>
     </div>
   </div>

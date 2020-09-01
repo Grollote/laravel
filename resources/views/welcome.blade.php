@@ -23,7 +23,7 @@
     </div>
     <div class="links">
       <a href="#text-justify">Ecole</a>
-      <a href="#flip-card">Formules</a>
+      <a href="#card-form">Formules</a>
       <a href="#information">Contact</a>
       
     </div>
@@ -58,7 +58,7 @@
     <div class="row">
         <div class="col-md-3 m-4 pl-auto">
             <div class="card-wrapper-form">
-                <div class="card-form">
+                <div class="card-form" id="card-form">
                     <div class="face-front-form z-depth-2">
                         <img src="{{ asset('image/musique-solo.png') }} "alt="ecole musique point d'orgue  saumur guitare batterie chant" >
                         <div class="card-body">
