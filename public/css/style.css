@@ -141,7 +141,7 @@ html, body {
   transform:rotateX(180deg);
 }
 .card-wrapper-form:hover .face-back-form{
-  transform:rotateX(3600deg);
+  transform:rotateX(360deg);
 }
 .name-form{
     font-family: 'Asap', sans-serif;
