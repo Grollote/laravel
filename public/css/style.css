@@ -336,11 +336,10 @@ footer{
 .rens-contact{
   display: flex;
   height: auto;
-  margin-left:5%;
+  margin-left:3%;
 }
 .form-rens {
   width: 50%;
-  margin-left:6%;
   float: left;
 }
 

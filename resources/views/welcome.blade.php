@@ -219,8 +219,10 @@
   
   <div class="rens-contact">
   <div class="form-rens">
-    <div class="container">
     <h2 class="text-justify" id="text-justify">Demande de renseignements </h2>
+
+    <div class="container">
+  
   <FORM METHOD=POST ENCTYPE="text/plain" ACTION="mailto:pointdorguesaumur@gmail.com"> 
    
     <p class="section-form">Nom :</p><input class="form-group" type="text" name="nom" size="30" required>
