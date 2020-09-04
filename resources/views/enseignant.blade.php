@@ -74,7 +74,7 @@
                             <div class="face-front z-depth-2">
                                 <img src="{{ asset('image/a.leveque.png') }} " alt="ecole musique point d'orgue  saumur guitare batterie chant">
                                     <div class="card-body">
-                                    <h5 class="name">Arnaud Lévêque</h5>
+                                    <h5 class="name">Arnaud </h5>
                                     <p class="texte">Piano</p>
                                     </div>
                             </div>
